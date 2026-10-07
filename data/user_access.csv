@@ -1,0 +1,1013 @@
+account_id,employee_id,system,role,account_active,mfa_enabled,last_login
+ACC00001,E0001,SAP ERP,Standard User,True,True,2026-08-07
+ACC00002,E0001,Active Directory,Standard User,True,True,2026-09-05
+ACC00003,E0001,AWS Console,Standard User,True,True,2026-09-18
+ACC00004,E0002,SAP ERP,Standard User,True,True,2026-09-19
+ACC00005,E0002,AWS Console,Standard User,True,True,2026-09-09
+ACC00006,E0003,Active Directory,Admin,True,True,2026-08-18
+ACC00007,E0003,Salesforce,Standard User,True,True,2026-08-22
+ACC00008,E0003,SAP ERP,Standard User,True,True,2026-08-10
+ACC00009,E0004,AWS Console,Standard User,True,True,2026-08-02
+ACC00010,E0004,Active Directory,Standard User,True,True,2026-09-03
+ACC00011,E0004,Salesforce,Standard User,True,True,2026-08-27
+ACC00012,E0005,Salesforce,Standard User,True,True,2026-09-16
+ACC00013,E0005,Active Directory,Standard User,True,True,2026-09-30
+ACC00014,E0006,Active Directory,Standard User,True,True,2026-09-09
+ACC00015,E0006,AWS Console,Standard User,True,True,2026-08-06
+ACC00016,E0006,Salesforce,Standard User,True,True,2026-09-12
+ACC00017,E0007,AWS Console,Standard User,False,True,2026-08-07
+ACC00018,E0007,Salesforce,Standard User,False,True,2026-08-15
+ACC00019,E0008,Salesforce,Standard User,True,True,2026-08-19
+ACC00020,E0009,AWS Console,Standard User,True,True,2026-08-26
+ACC00021,E0009,Salesforce,Power User,True,True,2026-08-04
+ACC00022,E0009,SAP ERP,Standard User,True,True,2026-08-20
+ACC00023,E0010,SAP ERP,Standard User,True,True,2026-08-08
+ACC00024,E0011,AWS Console,Standard User,True,True,2026-08-12
+ACC00025,E0012,AWS Console,Standard User,True,True,2026-08-15
+ACC00026,E0013,Salesforce,Power User,True,True,2026-08-03
+ACC00027,E0013,Active Directory,Standard User,True,True,2026-08-30
+ACC00028,E0013,SAP ERP,Power User,True,False,2026-09-25
+ACC00029,E0014,AWS Console,Standard User,False,True,2026-07-16
+ACC00030,E0014,Salesforce,Admin,False,True,2026-07-07
+ACC00031,E0015,SAP ERP,Standard User,True,True,2026-09-14
+ACC00032,E0015,Salesforce,Power User,True,True,2026-08-06
+ACC00033,E0016,Active Directory,Standard User,True,True,2026-08-26
+ACC00034,E0016,AWS Console,Standard User,True,True,2026-08-26
+ACC00035,E0017,Salesforce,Standard User,True,True,2026-08-11
+ACC00036,E0017,Active Directory,Standard User,True,True,2026-09-10
+ACC00037,E0018,SAP ERP,Power User,True,True,2026-08-23
+ACC00038,E0019,SAP ERP,Standard User,True,True,2026-08-17
+ACC00039,E0019,Active Directory,Standard User,True,True,2026-09-08
+ACC00040,E0020,Active Directory,Standard User,True,True,2026-09-19
+ACC00041,E0021,AWS Console,Standard User,True,True,2026-09-26
+ACC00042,E0021,SAP ERP,Standard User,True,True,2026-09-10
+ACC00043,E0021,Salesforce,Power User,True,True,2026-08-21
+ACC00044,E0022,Salesforce,Admin,True,True,2026-08-29
+ACC00045,E0022,Active Directory,Standard User,True,True,2026-09-07
+ACC00046,E0022,SAP ERP,Admin,True,True,2026-09-02
+ACC00047,E0023,Salesforce,Standard User,True,True,2026-08-03
+ACC00048,E0024,Salesforce,Standard User,True,True,2026-08-05
+ACC00049,E0025,Active Directory,Standard User,True,True,2026-09-20
+ACC00050,E0025,Salesforce,Standard User,True,True,2026-09-28
+ACC00051,E0025,SAP ERP,Standard User,True,True,2026-08-21
+ACC00052,E0026,AWS Console,Standard User,True,True,2026-09-21
+ACC00053,E0026,Salesforce,Standard User,True,True,2026-09-15
+ACC00054,E0026,Active Directory,Admin,True,True,2026-09-11
+ACC00055,E0027,Active Directory,Admin,False,True,2026-06-15
+ACC00056,E0028,SAP ERP,Standard User,True,True,2026-08-19
+ACC00057,E0028,AWS Console,Standard User,True,True,2026-09-19
+ACC00058,E0029,Active Directory,Standard User,True,True,2026-08-07
+ACC00059,E0029,Salesforce,Standard User,True,True,2026-08-17
+ACC00060,E0030,SAP ERP,Standard User,True,True,2026-08-23
+ACC00061,E0030,AWS Console,Standard User,True,True,2026-09-12
+ACC00062,E0030,Active Directory,Standard User,True,True,2026-09-30
+ACC00063,E0031,Salesforce,Standard User,True,True,2026-08-22
+ACC00064,E0032,Active Directory,Standard User,True,True,2026-08-28
+ACC00065,E0033,Salesforce,Standard User,True,True,2026-09-30
+ACC00066,E0033,Active Directory,Standard User,True,True,2026-09-30
+ACC00067,E0033,SAP ERP,Standard User,True,True,2026-08-13
+ACC00068,E0034,SAP ERP,Standard User,True,True,2026-08-19
+ACC00069,E0035,Active Directory,Standard User,True,True,2026-09-26
+ACC00070,E0036,SAP ERP,Admin,True,True,2026-08-12
+ACC00071,E0036,Salesforce,Standard User,True,True,2026-09-21
+ACC00072,E0036,AWS Console,Standard User,True,True,2026-08-03
+ACC00073,E0037,Salesforce,Standard User,False,True,2026-06-29
+ACC00074,E0037,AWS Console,Standard User,False,True,2026-07-09
+ACC00075,E0038,AWS Console,Standard User,True,True,2026-08-31
+ACC00076,E0038,Active Directory,Standard User,True,True,2026-09-13
+ACC00077,E0038,Salesforce,Power User,True,True,2026-08-30
+ACC00078,E0039,AWS Console,Standard User,True,True,2026-08-11
+ACC00079,E0039,Salesforce,Standard User,True,True,2026-09-21
+ACC00080,E0040,SAP ERP,Standard User,True,True,2026-09-25
+ACC00081,E0040,AWS Console,Standard User,True,True,2026-09-29
+ACC00082,E0040,Active Directory,Standard User,True,True,2026-09-24
+ACC00083,E0041,Active Directory,Standard User,True,True,2026-09-27
+ACC00084,E0041,SAP ERP,Standard User,True,True,2026-08-06
+ACC00085,E0041,AWS Console,Standard User,True,True,2026-08-29
+ACC00086,E0042,Active Directory,Standard User,True,True,2026-09-02
+ACC00087,E0042,SAP ERP,Standard User,True,True,2026-08-25
+ACC00088,E0043,Salesforce,Admin,True,True,2026-08-21
+ACC00089,E0044,Salesforce,Standard User,True,True,2026-08-09
+ACC00090,E0045,Salesforce,Power User,True,True,2026-08-31
+ACC00091,E0046,SAP ERP,Standard User,True,True,2026-08-01
+ACC00092,E0046,Salesforce,Power User,True,True,2026-08-02
+ACC00093,E0046,AWS Console,Standard User,True,True,2026-09-23
+ACC00094,E0047,AWS Console,Admin,True,True,2026-08-19
+ACC00095,E0048,Salesforce,Standard User,False,True,2026-01-22
+ACC00096,E0049,AWS Console,Standard User,True,True,2026-09-27
+ACC00097,E0049,Active Directory,Standard User,True,True,2026-09-04
+ACC00098,E0050,SAP ERP,Standard User,True,True,2026-08-19
+ACC00099,E0051,Active Directory,Standard User,False,True,2026-01-18
+ACC00100,E0051,Salesforce,Standard User,False,True,2026-01-24
+ACC00101,E0052,Active Directory,Standard User,True,True,2026-09-10
+ACC00102,E0053,Salesforce,Standard User,True,True,2026-08-23
+ACC00103,E0053,SAP ERP,Standard User,True,False,2026-08-23
+ACC00104,E0054,Active Directory,Standard User,True,True,2026-08-22
+ACC00105,E0055,Active Directory,Standard User,True,True,2026-08-22
+ACC00106,E0056,SAP ERP,Power User,True,True,2026-08-31
+ACC00107,E0056,Salesforce,Standard User,True,True,2026-09-21
+ACC00108,E0056,AWS Console,Standard User,True,True,2026-09-15
+ACC00109,E0057,Active Directory,Standard User,True,True,2026-09-20
+ACC00110,E0057,SAP ERP,Standard User,True,True,2026-08-03
+ACC00111,E0058,Salesforce,Standard User,True,True,2026-09-06
+ACC00112,E0058,AWS Console,Standard User,False,True,2025-09-18
+ACC00113,E0059,SAP ERP,Standard User,False,True,2026-03-04
+ACC00114,E0060,Salesforce,Standard User,True,True,2026-09-21
+ACC00115,E0061,AWS Console,Standard User,True,True,2026-09-27
+ACC00116,E0061,SAP ERP,Power User,True,True,2026-08-22
+ACC00117,E0062,AWS Console,Standard User,True,True,2026-09-21
+ACC00118,E0063,Salesforce,Standard User,True,True,2026-09-08
+ACC00119,E0063,Active Directory,Power User,True,True,2026-08-12
+ACC00120,E0063,SAP ERP,Standard User,True,True,2026-08-21
+ACC00121,E0064,Active Directory,Standard User,False,True,2026-06-23
+ACC00122,E0065,AWS Console,Standard User,True,True,2026-08-03
+ACC00123,E0065,Active Directory,Standard User,True,True,2026-09-28
+ACC00124,E0065,SAP ERP,Standard User,True,True,2026-08-28
+ACC00125,E0066,Active Directory,Standard User,True,True,2026-08-26
+ACC00126,E0066,AWS Console,Standard User,True,True,2026-09-21
+ACC00127,E0067,SAP ERP,Standard User,True,True,2026-08-29
+ACC00128,E0067,Active Directory,Admin,True,True,2026-08-05
+ACC00129,E0067,Salesforce,Admin,True,True,2026-09-11
+ACC00130,E0068,Salesforce,Power User,True,True,2026-08-03
+ACC00131,E0068,SAP ERP,Standard User,True,True,2026-09-13
+ACC00132,E0069,Salesforce,Standard User,True,True,2026-08-09
+ACC00133,E0069,SAP ERP,Standard User,True,True,2026-09-11
+ACC00134,E0070,SAP ERP,Standard User,True,True,2026-08-12
+ACC00135,E0070,Active Directory,Standard User,True,True,2026-08-25
+ACC00136,E0071,Active Directory,Standard User,False,True,2026-02-27
+ACC00137,E0071,SAP ERP,Power User,False,True,2026-03-02
+ACC00138,E0071,Salesforce,Standard User,False,True,2026-03-08
+ACC00139,E0072,Active Directory,Standard User,False,True,2026-07-01
+ACC00140,E0073,SAP ERP,Standard User,True,True,2026-08-06
+ACC00141,E0073,Salesforce,Standard User,True,True,2026-09-24
+ACC00142,E0074,Salesforce,Standard User,True,True,2026-09-04
+ACC00143,E0074,AWS Console,Standard User,True,True,2026-08-20
+ACC00144,E0075,SAP ERP,Standard User,True,True,2026-08-08
+ACC00145,E0076,SAP ERP,Standard User,False,True,2026-08-24
+ACC00146,E0077,Salesforce,Standard User,True,True,2026-08-24
+ACC00147,E0078,SAP ERP,Power User,True,True,2026-08-05
+ACC00148,E0078,Salesforce,Standard User,True,True,2026-09-15
+ACC00149,E0079,AWS Console,Standard User,True,True,2026-08-05
+ACC00150,E0079,Salesforce,Admin,True,True,2026-08-21
+ACC00151,E0079,SAP ERP,Standard User,True,True,2026-09-13
+ACC00152,E0080,Salesforce,Standard User,True,True,2026-08-09
+ACC00153,E0080,Active Directory,Standard User,True,True,2026-09-28
+ACC00154,E0080,AWS Console,Power User,True,True,2026-09-23
+ACC00155,E0081,SAP ERP,Standard User,False,True,2026-04-10
+ACC00156,E0082,SAP ERP,Standard User,True,True,2026-08-19
+ACC00157,E0082,AWS Console,Standard User,True,True,2026-09-10
+ACC00158,E0083,Salesforce,Standard User,False,True,2025-11-10
+ACC00159,E0083,Active Directory,Admin,False,True,2025-11-20
+ACC00160,E0083,SAP ERP,Standard User,False,True,2025-11-09
+ACC00161,E0084,Salesforce,Standard User,False,True,2025-10-27
+ACC00162,E0084,AWS Console,Standard User,False,True,2025-11-03
+ACC00163,E0084,Active Directory,Standard User,False,True,2025-11-08
+ACC00164,E0085,Active Directory,Standard User,True,True,2026-08-20
+ACC00165,E0085,SAP ERP,Standard User,True,False,2026-09-21
+ACC00166,E0085,Salesforce,Standard User,True,True,2026-08-26
+ACC00167,E0086,AWS Console,Standard User,True,True,2026-08-11
+ACC00168,E0086,Active Directory,Standard User,True,True,2026-08-31
+ACC00169,E0087,SAP ERP,Standard User,True,True,2026-08-21
+ACC00170,E0087,AWS Console,Power User,True,True,2026-08-21
+ACC00171,E0088,Salesforce,Standard User,True,True,2026-09-02
+ACC00172,E0088,SAP ERP,Standard User,True,True,2026-08-21
+ACC00173,E0088,Active Directory,Standard User,True,True,2026-08-08
+ACC00174,E0089,AWS Console,Standard User,True,True,2026-08-04
+ACC00175,E0089,Active Directory,Standard User,True,True,2026-08-25
+ACC00176,E0090,AWS Console,Standard User,False,True,2025-10-07
+ACC00177,E0090,Active Directory,Standard User,False,True,2025-09-18
+ACC00178,E0090,Salesforce,Standard User,False,True,2025-09-13
+ACC00179,E0091,AWS Console,Standard User,True,True,2026-08-06
+ACC00180,E0091,SAP ERP,Standard User,True,True,2026-08-16
+ACC00181,E0092,Salesforce,Standard User,True,True,2026-08-19
+ACC00182,E0093,AWS Console,Standard User,True,True,2026-08-28
+ACC00183,E0093,SAP ERP,Admin,True,True,2026-08-17
+ACC00184,E0094,Salesforce,Standard User,True,True,2026-08-04
+ACC00185,E0094,SAP ERP,Standard User,True,True,2026-08-13
+ACC00186,E0094,AWS Console,Standard User,True,True,2026-08-19
+ACC00187,E0095,AWS Console,Standard User,False,True,2026-05-15
+ACC00188,E0096,Salesforce,Admin,True,True,2026-08-07
+ACC00189,E0096,AWS Console,Standard User,True,True,2026-08-22
+ACC00190,E0096,Active Directory,Standard User,True,True,2026-08-10
+ACC00191,E0097,AWS Console,Standard User,True,True,2026-08-03
+ACC00192,E0098,SAP ERP,Standard User,True,True,2026-09-21
+ACC00193,E0099,AWS Console,Standard User,True,True,2026-09-02
+ACC00194,E0099,Active Directory,Standard User,True,True,2026-09-29
+ACC00195,E0100,Salesforce,Power User,True,True,2026-09-17
+ACC00196,E0100,Active Directory,Standard User,True,True,2026-09-07
+ACC00197,E0100,SAP ERP,Standard User,True,True,2026-09-23
+ACC00198,E0101,AWS Console,Standard User,True,True,2026-08-02
+ACC00199,E0101,Salesforce,Standard User,True,True,2026-09-13
+ACC00200,E0101,SAP ERP,Standard User,True,True,2026-08-27
+ACC00201,E0102,Salesforce,Standard User,True,True,2026-09-11
+ACC00202,E0102,AWS Console,Standard User,True,True,2026-09-06
+ACC00203,E0102,Active Directory,Admin,True,True,2026-08-04
+ACC00204,E0103,AWS Console,Standard User,True,True,2026-09-13
+ACC00205,E0103,Active Directory,Standard User,True,True,2026-09-06
+ACC00206,E0103,SAP ERP,Power User,True,True,2026-08-08
+ACC00207,E0104,Active Directory,Standard User,True,True,2026-08-27
+ACC00208,E0105,AWS Console,Standard User,False,True,2026-04-19
+ACC00209,E0106,AWS Console,Standard User,True,True,2026-07-10
+ACC00210,E0106,Salesforce,Standard User,False,True,2026-07-04
+ACC00211,E0106,Active Directory,Power User,False,True,2026-07-09
+ACC00212,E0107,AWS Console,Standard User,True,True,2026-09-04
+ACC00213,E0107,SAP ERP,Standard User,True,True,2026-08-23
+ACC00214,E0107,Active Directory,Standard User,True,True,2026-09-25
+ACC00215,E0108,Salesforce,Standard User,True,True,2026-08-16
+ACC00216,E0108,AWS Console,Standard User,True,True,2026-08-20
+ACC00217,E0108,SAP ERP,Standard User,True,True,2026-08-20
+ACC00218,E0109,SAP ERP,Standard User,True,False,2026-08-21
+ACC00219,E0109,Salesforce,Standard User,True,False,2026-09-05
+ACC00220,E0110,Salesforce,Standard User,True,True,2026-09-04
+ACC00221,E0110,SAP ERP,Standard User,True,True,2026-08-26
+ACC00222,E0110,Active Directory,Standard User,True,True,2026-09-19
+ACC00223,E0111,Salesforce,Standard User,True,True,2026-09-15
+ACC00224,E0112,Salesforce,Power User,True,True,2026-09-11
+ACC00225,E0113,AWS Console,Standard User,True,True,2026-09-04
+ACC00226,E0113,Active Directory,Standard User,True,True,2026-09-05
+ACC00227,E0114,Salesforce,Standard User,True,True,2026-09-07
+ACC00228,E0114,Active Directory,Standard User,True,True,2026-08-04
+ACC00229,E0114,AWS Console,Standard User,True,True,2026-09-03
+ACC00230,E0115,SAP ERP,Standard User,False,True,2026-01-27
+ACC00231,E0116,AWS Console,Standard User,False,True,2025-10-10
+ACC00232,E0116,Active Directory,Standard User,False,True,2025-10-23
+ACC00233,E0117,AWS Console,Standard User,True,True,2026-09-26
+ACC00234,E0118,AWS Console,Admin,True,True,2026-08-19
+ACC00235,E0118,Salesforce,Standard User,True,True,2026-09-28
+ACC00236,E0119,SAP ERP,Standard User,True,True,2026-09-16
+ACC00237,E0120,SAP ERP,Standard User,True,True,2026-09-23
+ACC00238,E0121,Active Directory,Power User,True,True,2026-08-26
+ACC00239,E0122,SAP ERP,Power User,True,True,2026-09-29
+ACC00240,E0122,Salesforce,Standard User,True,True,2026-08-03
+ACC00241,E0123,Salesforce,Standard User,True,True,2026-06-14
+ACC00242,E0124,Salesforce,Power User,True,True,2026-09-04
+ACC00243,E0124,SAP ERP,Standard User,True,True,2026-09-26
+ACC00244,E0125,AWS Console,Standard User,True,True,2026-09-21
+ACC00245,E0126,Salesforce,Admin,True,False,2026-08-30
+ACC00246,E0127,Salesforce,Standard User,True,True,2026-08-22
+ACC00247,E0127,AWS Console,Standard User,True,True,2026-09-06
+ACC00248,E0127,Active Directory,Standard User,True,True,2026-08-13
+ACC00249,E0128,AWS Console,Standard User,True,True,2026-09-02
+ACC00250,E0129,Active Directory,Standard User,True,True,2026-08-09
+ACC00251,E0129,SAP ERP,Power User,True,True,2026-08-01
+ACC00252,E0130,AWS Console,Standard User,False,True,2025-11-14
+ACC00253,E0130,Active Directory,Power User,False,True,2025-11-15
+ACC00254,E0131,Active Directory,Standard User,True,True,2026-08-04
+ACC00255,E0131,SAP ERP,Standard User,True,True,2026-08-30
+ACC00256,E0131,Salesforce,Standard User,True,True,2026-08-26
+ACC00257,E0132,Salesforce,Standard User,True,True,2026-09-30
+ACC00258,E0132,AWS Console,Standard User,True,True,2026-09-09
+ACC00259,E0132,Active Directory,Standard User,True,True,2026-08-09
+ACC00260,E0133,SAP ERP,Standard User,True,True,2026-09-08
+ACC00261,E0133,AWS Console,Standard User,True,True,2026-09-14
+ACC00262,E0134,AWS Console,Standard User,False,True,2025-12-05
+ACC00263,E0134,Salesforce,Standard User,False,True,2025-11-30
+ACC00264,E0134,Active Directory,Standard User,False,True,2025-12-15
+ACC00265,E0135,Active Directory,Standard User,True,True,2026-08-21
+ACC00266,E0135,AWS Console,Standard User,True,True,2026-09-13
+ACC00267,E0135,Salesforce,Admin,True,True,2026-09-07
+ACC00268,E0136,Active Directory,Standard User,True,True,2026-08-04
+ACC00269,E0136,Salesforce,Standard User,True,True,2026-09-02
+ACC00270,E0137,AWS Console,Standard User,True,True,2026-06-10
+ACC00271,E0137,Salesforce,Standard User,False,True,2025-09-30
+ACC00272,E0138,Active Directory,Standard User,True,True,2026-09-17
+ACC00273,E0138,SAP ERP,Standard User,True,True,2026-08-05
+ACC00274,E0138,Salesforce,Standard User,True,True,2026-08-23
+ACC00275,E0139,Active Directory,Power User,True,True,2026-08-05
+ACC00276,E0139,Salesforce,Power User,True,True,2026-08-31
+ACC00277,E0139,AWS Console,Standard User,True,True,2026-08-27
+ACC00278,E0140,SAP ERP,Power User,True,True,2026-09-11
+ACC00279,E0141,Salesforce,Power User,True,True,2026-08-25
+ACC00280,E0141,SAP ERP,Standard User,True,True,2026-09-12
+ACC00281,E0142,SAP ERP,Standard User,True,True,2026-09-04
+ACC00282,E0142,Salesforce,Standard User,True,True,2026-08-09
+ACC00283,E0142,AWS Console,Standard User,True,True,2026-08-15
+ACC00284,E0143,Active Directory,Standard User,True,True,2026-09-16
+ACC00285,E0144,AWS Console,Standard User,True,True,2026-08-16
+ACC00286,E0144,Salesforce,Standard User,True,True,2026-08-10
+ACC00287,E0144,SAP ERP,Standard User,True,True,2026-09-29
+ACC00288,E0145,Active Directory,Standard User,True,True,2026-09-29
+ACC00289,E0145,AWS Console,Power User,True,True,2026-08-02
+ACC00290,E0145,SAP ERP,Standard User,True,True,2026-08-05
+ACC00291,E0146,Active Directory,Standard User,True,True,2026-09-25
+ACC00292,E0147,SAP ERP,Standard User,True,True,2026-08-15
+ACC00293,E0148,SAP ERP,Standard User,True,True,2026-09-22
+ACC00294,E0148,Active Directory,Standard User,True,True,2026-09-06
+ACC00295,E0148,Salesforce,Standard User,True,True,2026-08-21
+ACC00296,E0149,Salesforce,Power User,False,True,2026-05-15
+ACC00297,E0150,AWS Console,Standard User,True,True,2026-09-30
+ACC00298,E0151,SAP ERP,Standard User,True,True,2026-08-04
+ACC00299,E0151,Salesforce,Power User,True,True,2026-09-30
+ACC00300,E0151,AWS Console,Standard User,True,True,2026-08-25
+ACC00301,E0152,Salesforce,Standard User,True,True,2026-08-20
+ACC00302,E0152,AWS Console,Standard User,True,True,2026-09-18
+ACC00303,E0152,SAP ERP,Standard User,True,False,2026-08-16
+ACC00304,E0153,Salesforce,Power User,False,True,2026-02-20
+ACC00305,E0154,Active Directory,Standard User,True,True,2026-08-27
+ACC00306,E0154,Salesforce,Standard User,True,True,2026-08-09
+ACC00307,E0155,SAP ERP,Admin,True,True,2026-09-11
+ACC00308,E0155,AWS Console,Admin,True,True,2026-08-29
+ACC00309,E0156,Active Directory,Standard User,True,True,2026-08-18
+ACC00310,E0156,Salesforce,Standard User,True,True,2026-08-03
+ACC00311,E0157,SAP ERP,Standard User,True,True,2026-09-07
+ACC00312,E0158,SAP ERP,Power User,True,True,2026-08-22
+ACC00313,E0158,AWS Console,Standard User,True,True,2026-09-28
+ACC00314,E0158,Active Directory,Standard User,True,True,2026-09-29
+ACC00315,E0159,Active Directory,Standard User,True,True,2026-09-18
+ACC00316,E0160,SAP ERP,Standard User,False,True,2026-02-14
+ACC00317,E0160,Salesforce,Standard User,False,True,2026-02-15
+ACC00318,E0161,Salesforce,Standard User,True,True,2026-09-11
+ACC00319,E0161,SAP ERP,Standard User,True,True,2026-08-17
+ACC00320,E0161,AWS Console,Standard User,True,True,2026-09-26
+ACC00321,E0162,AWS Console,Standard User,True,True,2026-09-16
+ACC00322,E0162,Active Directory,Standard User,True,True,2026-09-23
+ACC00323,E0163,SAP ERP,Standard User,True,True,2026-09-25
+ACC00324,E0163,AWS Console,Admin,True,True,2026-08-10
+ACC00325,E0164,Salesforce,Standard User,False,True,2026-09-02
+ACC00326,E0165,Salesforce,Standard User,True,True,2026-08-15
+ACC00327,E0165,Active Directory,Standard User,True,True,2026-09-23
+ACC00328,E0166,AWS Console,Standard User,True,True,2026-09-30
+ACC00329,E0167,Salesforce,Standard User,True,True,2026-09-01
+ACC00330,E0167,SAP ERP,Standard User,True,True,2026-08-23
+ACC00331,E0167,AWS Console,Admin,True,True,2026-09-16
+ACC00332,E0168,AWS Console,Standard User,True,True,2026-09-23
+ACC00333,E0168,Active Directory,Standard User,True,True,2026-09-30
+ACC00334,E0168,Salesforce,Standard User,True,True,2026-08-04
+ACC00335,E0169,AWS Console,Standard User,True,True,2026-09-10
+ACC00336,E0170,Active Directory,Standard User,True,True,2026-08-01
+ACC00337,E0171,AWS Console,Standard User,False,True,2026-04-02
+ACC00338,E0172,AWS Console,Standard User,True,True,2026-09-04
+ACC00339,E0172,Salesforce,Standard User,True,True,2026-08-01
+ACC00340,E0172,SAP ERP,Standard User,True,True,2026-09-16
+ACC00341,E0173,Salesforce,Standard User,True,True,2026-09-14
+ACC00342,E0173,Active Directory,Standard User,True,True,2026-09-21
+ACC00343,E0174,Active Directory,Power User,True,True,2026-09-03
+ACC00344,E0175,SAP ERP,Admin,True,True,2026-09-03
+ACC00345,E0176,Salesforce,Standard User,True,True,2026-08-06
+ACC00346,E0176,SAP ERP,Standard User,True,True,2026-08-26
+ACC00347,E0177,SAP ERP,Admin,True,True,2026-09-13
+ACC00348,E0177,Salesforce,Standard User,True,True,2026-09-24
+ACC00349,E0178,Active Directory,Standard User,True,True,2026-08-04
+ACC00350,E0178,AWS Console,Standard User,True,True,2026-08-06
+ACC00351,E0178,SAP ERP,Standard User,True,True,2026-09-20
+ACC00352,E0179,Active Directory,Standard User,True,True,2026-09-27
+ACC00353,E0179,Salesforce,Power User,True,True,2026-08-31
+ACC00354,E0180,Active Directory,Standard User,True,True,2026-08-18
+ACC00355,E0180,AWS Console,Power User,True,True,2026-09-06
+ACC00356,E0181,Active Directory,Standard User,True,True,2026-08-14
+ACC00357,E0181,AWS Console,Standard User,True,True,2026-09-18
+ACC00358,E0181,SAP ERP,Standard User,True,True,2026-09-22
+ACC00359,E0182,Active Directory,Admin,False,True,2026-08-18
+ACC00360,E0182,SAP ERP,Standard User,False,True,2026-09-01
+ACC00361,E0183,Salesforce,Standard User,True,True,2026-08-06
+ACC00362,E0183,SAP ERP,Power User,True,True,2026-08-04
+ACC00363,E0183,Active Directory,Admin,True,True,2026-08-15
+ACC00364,E0184,Salesforce,Standard User,False,True,2026-05-21
+ACC00365,E0185,AWS Console,Standard User,True,True,2026-08-29
+ACC00366,E0185,SAP ERP,Standard User,True,True,2026-09-30
+ACC00367,E0185,Active Directory,Standard User,True,True,2026-09-07
+ACC00368,E0186,AWS Console,Standard User,True,True,2026-08-06
+ACC00369,E0186,Active Directory,Admin,True,True,2026-08-25
+ACC00370,E0186,SAP ERP,Standard User,True,True,2026-09-17
+ACC00371,E0187,Salesforce,Admin,True,True,2026-08-01
+ACC00372,E0187,SAP ERP,Standard User,True,True,2026-09-18
+ACC00373,E0188,Active Directory,Standard User,True,True,2026-08-28
+ACC00374,E0188,AWS Console,Standard User,True,True,2026-09-05
+ACC00375,E0189,AWS Console,Standard User,True,True,2026-09-05
+ACC00376,E0189,Active Directory,Standard User,True,True,2026-09-08
+ACC00377,E0189,Salesforce,Standard User,True,True,2026-09-25
+ACC00378,E0190,Active Directory,Standard User,True,True,2026-09-16
+ACC00379,E0190,SAP ERP,Power User,True,True,2026-08-16
+ACC00380,E0191,SAP ERP,Standard User,False,True,2025-12-08
+ACC00381,E0191,Salesforce,Standard User,False,True,2025-12-15
+ACC00382,E0191,AWS Console,Standard User,False,True,2025-12-05
+ACC00383,E0192,Salesforce,Admin,True,True,2026-09-20
+ACC00384,E0192,SAP ERP,Admin,True,True,2026-08-17
+ACC00385,E0193,AWS Console,Standard User,True,True,2026-08-13
+ACC00386,E0194,Active Directory,Standard User,True,True,2026-09-30
+ACC00387,E0194,AWS Console,Standard User,True,True,2026-09-23
+ACC00388,E0195,AWS Console,Standard User,False,True,2026-06-25
+ACC00389,E0195,SAP ERP,Standard User,False,True,2026-06-19
+ACC00390,E0195,Salesforce,Power User,False,True,2026-06-03
+ACC00391,E0196,Salesforce,Power User,True,True,2026-08-13
+ACC00392,E0196,AWS Console,Standard User,True,False,2026-08-12
+ACC00393,E0197,Salesforce,Standard User,True,True,2026-09-10
+ACC00394,E0197,SAP ERP,Standard User,True,True,2026-09-06
+ACC00395,E0198,Salesforce,Standard User,True,True,2026-09-22
+ACC00396,E0199,Salesforce,Power User,True,True,2026-08-13
+ACC00397,E0199,Active Directory,Standard User,True,True,2026-09-04
+ACC00398,E0200,Active Directory,Standard User,True,True,2026-09-15
+ACC00399,E0201,AWS Console,Standard User,True,True,2026-09-23
+ACC00400,E0202,Active Directory,Admin,True,True,2026-08-20
+ACC00401,E0202,SAP ERP,Admin,True,True,2026-09-12
+ACC00402,E0202,Salesforce,Admin,True,True,2026-08-28
+ACC00403,E0203,Active Directory,Power User,True,True,2026-08-31
+ACC00404,E0203,SAP ERP,Standard User,True,True,2026-09-04
+ACC00405,E0204,AWS Console,Standard User,True,True,2026-08-24
+ACC00406,E0204,Salesforce,Standard User,True,True,2026-09-21
+ACC00407,E0204,Active Directory,Standard User,True,True,2026-09-10
+ACC00408,E0205,Active Directory,Standard User,False,True,2026-02-08
+ACC00409,E0206,Salesforce,Standard User,True,True,2026-09-11
+ACC00410,E0206,Active Directory,Standard User,True,True,2026-08-26
+ACC00411,E0206,AWS Console,Power User,True,True,2026-08-22
+ACC00412,E0207,Active Directory,Standard User,False,True,2025-11-25
+ACC00413,E0207,AWS Console,Standard User,False,True,2025-12-04
+ACC00414,E0208,SAP ERP,Standard User,True,True,2026-09-19
+ACC00415,E0208,AWS Console,Standard User,True,True,2026-09-14
+ACC00416,E0208,Salesforce,Standard User,True,True,2026-08-23
+ACC00417,E0209,AWS Console,Standard User,True,True,2026-08-27
+ACC00418,E0210,Active Directory,Standard User,True,True,2026-09-16
+ACC00419,E0211,Salesforce,Standard User,True,True,2026-08-14
+ACC00420,E0212,AWS Console,Standard User,True,True,2026-09-16
+ACC00421,E0212,SAP ERP,Standard User,True,True,2026-08-21
+ACC00422,E0212,Salesforce,Standard User,True,True,2026-08-03
+ACC00423,E0213,Active Directory,Standard User,True,True,2026-09-13
+ACC00424,E0213,AWS Console,Standard User,True,True,2026-09-29
+ACC00425,E0213,SAP ERP,Power User,True,True,2026-08-16
+ACC00426,E0214,SAP ERP,Standard User,True,True,2026-08-28
+ACC00427,E0214,Salesforce,Power User,True,True,2026-08-15
+ACC00428,E0214,Active Directory,Standard User,True,True,2026-09-10
+ACC00429,E0215,SAP ERP,Standard User,True,True,2026-08-02
+ACC00430,E0216,SAP ERP,Standard User,True,True,2026-09-15
+ACC00431,E0216,AWS Console,Standard User,True,True,2026-08-18
+ACC00432,E0216,Salesforce,Standard User,True,True,2026-09-21
+ACC00433,E0217,Active Directory,Standard User,True,True,2026-09-04
+ACC00434,E0218,Salesforce,Standard User,True,True,2026-08-30
+ACC00435,E0219,Salesforce,Standard User,True,True,2026-09-01
+ACC00436,E0220,Salesforce,Standard User,True,True,2026-09-01
+ACC00437,E0220,AWS Console,Standard User,False,True,2026-08-25
+ACC00438,E0220,SAP ERP,Standard User,False,True,2026-09-02
+ACC00439,E0221,Salesforce,Standard User,True,True,2026-09-13
+ACC00440,E0222,Salesforce,Standard User,True,True,2026-08-20
+ACC00441,E0223,SAP ERP,Standard User,True,True,2026-08-10
+ACC00442,E0224,AWS Console,Standard User,True,True,2026-08-28
+ACC00443,E0224,SAP ERP,Standard User,True,True,2026-09-10
+ACC00444,E0224,Active Directory,Standard User,True,True,2026-09-28
+ACC00445,E0225,SAP ERP,Standard User,True,True,2026-08-09
+ACC00446,E0225,Salesforce,Standard User,True,True,2026-09-23
+ACC00447,E0225,Active Directory,Standard User,True,True,2026-08-04
+ACC00448,E0226,Active Directory,Standard User,True,True,2026-09-22
+ACC00449,E0226,SAP ERP,Standard User,True,True,2026-09-05
+ACC00450,E0227,AWS Console,Standard User,True,True,2026-09-23
+ACC00451,E0227,SAP ERP,Standard User,True,True,2026-08-11
+ACC00452,E0227,Salesforce,Standard User,True,True,2026-08-02
+ACC00453,E0228,Salesforce,Admin,True,True,2026-08-15
+ACC00454,E0229,Salesforce,Standard User,True,True,2026-09-01
+ACC00455,E0229,Active Directory,Standard User,True,True,2026-08-08
+ACC00456,E0229,SAP ERP,Admin,True,True,2026-09-04
+ACC00457,E0230,Active Directory,Standard User,True,True,2026-08-14
+ACC00458,E0230,Salesforce,Power User,True,True,2026-08-07
+ACC00459,E0231,SAP ERP,Standard User,True,True,2026-07-16
+ACC00460,E0231,AWS Console,Power User,False,True,2026-06-06
+ACC00461,E0231,Active Directory,Standard User,False,True,2026-06-07
+ACC00462,E0232,SAP ERP,Standard User,True,True,2026-08-17
+ACC00463,E0233,Salesforce,Admin,False,True,2025-09-20
+ACC00464,E0233,AWS Console,Standard User,False,True,2025-10-11
+ACC00465,E0233,SAP ERP,Admin,False,True,2025-09-27
+ACC00466,E0234,Salesforce,Standard User,True,True,2026-09-15
+ACC00467,E0234,AWS Console,Standard User,True,True,2026-09-06
+ACC00468,E0234,Active Directory,Standard User,True,True,2026-09-24
+ACC00469,E0235,Active Directory,Power User,False,True,2025-11-12
+ACC00470,E0235,AWS Console,Power User,False,True,2025-11-08
+ACC00471,E0235,SAP ERP,Standard User,False,True,2025-11-08
+ACC00472,E0236,SAP ERP,Standard User,True,True,2026-09-23
+ACC00473,E0237,AWS Console,Standard User,True,True,2026-09-06
+ACC00474,E0238,Salesforce,Standard User,True,True,2026-08-05
+ACC00475,E0238,AWS Console,Standard User,True,True,2026-09-26
+ACC00476,E0238,SAP ERP,Standard User,True,True,2026-08-26
+ACC00477,E0239,Salesforce,Standard User,True,True,2026-09-07
+ACC00478,E0239,AWS Console,Admin,True,True,2026-09-19
+ACC00479,E0239,SAP ERP,Standard User,True,False,2026-08-30
+ACC00480,E0240,Salesforce,Admin,False,True,2026-02-20
+ACC00481,E0240,Active Directory,Standard User,False,True,2026-02-17
+ACC00482,E0240,SAP ERP,Standard User,False,True,2026-02-25
+ACC00483,E0241,AWS Console,Standard User,False,True,2026-03-07
+ACC00484,E0242,Active Directory,Standard User,True,True,2026-09-23
+ACC00485,E0242,AWS Console,Standard User,True,True,2026-08-08
+ACC00486,E0242,Salesforce,Power User,True,True,2026-08-11
+ACC00487,E0243,AWS Console,Power User,True,True,2026-08-28
+ACC00488,E0243,Active Directory,Standard User,True,True,2026-09-14
+ACC00489,E0244,Salesforce,Admin,True,True,2026-09-29
+ACC00490,E0245,Active Directory,Standard User,True,True,2026-09-12
+ACC00491,E0245,Salesforce,Standard User,True,True,2026-08-26
+ACC00492,E0246,Salesforce,Standard User,True,True,2026-08-07
+ACC00493,E0246,AWS Console,Admin,True,True,2026-08-31
+ACC00494,E0246,Active Directory,Admin,True,True,2026-09-07
+ACC00495,E0247,AWS Console,Admin,True,True,2026-09-14
+ACC00496,E0248,Active Directory,Standard User,True,True,2026-08-31
+ACC00497,E0248,SAP ERP,Standard User,True,True,2026-08-25
+ACC00498,E0249,Active Directory,Standard User,True,True,2026-08-24
+ACC00499,E0250,SAP ERP,Standard User,True,True,2026-09-18
+ACC00500,E0250,AWS Console,Power User,True,True,2026-09-11
+ACC00501,E0251,SAP ERP,Standard User,True,True,2026-08-23
+ACC00502,E0251,Active Directory,Standard User,True,True,2026-08-10
+ACC00503,E0251,Salesforce,Standard User,True,True,2026-08-29
+ACC00504,E0252,Active Directory,Power User,False,True,2026-04-28
+ACC00505,E0253,AWS Console,Standard User,True,False,2026-08-28
+ACC00506,E0254,SAP ERP,Admin,True,True,2026-08-06
+ACC00507,E0254,Active Directory,Admin,True,True,2026-09-08
+ACC00508,E0255,Salesforce,Standard User,True,True,2026-09-12
+ACC00509,E0255,AWS Console,Power User,True,True,2026-08-14
+ACC00510,E0255,Active Directory,Standard User,True,True,2026-09-02
+ACC00511,E0256,AWS Console,Standard User,True,True,2026-08-04
+ACC00512,E0257,AWS Console,Standard User,True,True,2026-08-16
+ACC00513,E0258,Active Directory,Standard User,True,True,2026-08-24
+ACC00514,E0258,Salesforce,Standard User,True,True,2026-09-25
+ACC00515,E0259,AWS Console,Standard User,False,True,2026-05-26
+ACC00516,E0259,SAP ERP,Power User,False,True,2026-04-28
+ACC00517,E0259,Active Directory,Standard User,False,True,2026-04-28
+ACC00518,E0260,Salesforce,Admin,True,True,2026-09-29
+ACC00519,E0261,AWS Console,Standard User,True,True,2026-09-10
+ACC00520,E0262,AWS Console,Standard User,True,True,2026-09-04
+ACC00521,E0262,SAP ERP,Standard User,True,True,2026-08-10
+ACC00522,E0262,Salesforce,Standard User,True,True,2026-08-20
+ACC00523,E0263,SAP ERP,Power User,True,True,2026-08-10
+ACC00524,E0264,Salesforce,Standard User,True,True,2026-08-28
+ACC00525,E0264,SAP ERP,Standard User,True,True,2026-09-24
+ACC00526,E0264,Active Directory,Standard User,True,True,2026-08-16
+ACC00527,E0265,AWS Console,Standard User,True,True,2026-09-09
+ACC00528,E0266,Active Directory,Standard User,True,True,2026-09-15
+ACC00529,E0266,SAP ERP,Standard User,True,True,2026-08-01
+ACC00530,E0266,AWS Console,Standard User,True,True,2026-09-30
+ACC00531,E0267,Salesforce,Standard User,True,True,2026-09-17
+ACC00532,E0267,Active Directory,Standard User,True,True,2026-08-18
+ACC00533,E0268,Active Directory,Standard User,True,True,2026-08-18
+ACC00534,E0268,AWS Console,Standard User,True,True,2026-08-17
+ACC00535,E0268,SAP ERP,Standard User,True,True,2026-09-06
+ACC00536,E0269,Active Directory,Standard User,True,True,2026-09-24
+ACC00537,E0269,SAP ERP,Standard User,True,True,2026-08-17
+ACC00538,E0269,Salesforce,Power User,True,True,2026-09-13
+ACC00539,E0270,Active Directory,Standard User,True,True,2026-09-25
+ACC00540,E0270,AWS Console,Standard User,True,True,2026-08-03
+ACC00541,E0270,Salesforce,Standard User,True,True,2026-08-25
+ACC00542,E0271,SAP ERP,Power User,True,True,2026-09-24
+ACC00543,E0272,AWS Console,Admin,True,True,2026-08-16
+ACC00544,E0273,Salesforce,Standard User,True,True,2026-09-06
+ACC00545,E0273,SAP ERP,Standard User,True,True,2026-09-02
+ACC00546,E0274,Active Directory,Power User,True,False,2026-08-26
+ACC00547,E0274,AWS Console,Admin,True,True,2026-08-30
+ACC00548,E0274,Salesforce,Standard User,True,True,2026-08-20
+ACC00549,E0275,Active Directory,Standard User,True,False,2026-08-19
+ACC00550,E0275,Salesforce,Standard User,True,False,2026-09-09
+ACC00551,E0276,AWS Console,Standard User,True,True,2026-09-01
+ACC00552,E0277,SAP ERP,Standard User,False,True,2025-11-30
+ACC00553,E0278,Active Directory,Standard User,True,True,2026-09-14
+ACC00554,E0278,AWS Console,Power User,True,True,2026-08-01
+ACC00555,E0279,AWS Console,Standard User,True,True,2026-09-03
+ACC00556,E0279,Salesforce,Power User,True,True,2026-08-27
+ACC00557,E0279,SAP ERP,Standard User,True,True,2026-08-04
+ACC00558,E0280,Salesforce,Admin,True,True,2026-09-28
+ACC00559,E0281,AWS Console,Standard User,True,True,2026-08-24
+ACC00560,E0282,Active Directory,Standard User,True,True,2026-08-09
+ACC00561,E0282,Salesforce,Standard User,True,True,2026-08-26
+ACC00562,E0283,Active Directory,Standard User,True,True,2026-08-09
+ACC00563,E0284,Salesforce,Standard User,True,True,2026-08-21
+ACC00564,E0285,Salesforce,Standard User,True,True,2026-08-15
+ACC00565,E0285,SAP ERP,Standard User,True,True,2026-08-13
+ACC00566,E0286,Active Directory,Standard User,True,True,2026-08-11
+ACC00567,E0287,AWS Console,Standard User,True,True,2026-09-04
+ACC00568,E0287,SAP ERP,Standard User,True,True,2026-09-19
+ACC00569,E0288,AWS Console,Standard User,True,True,2026-08-17
+ACC00570,E0289,Active Directory,Standard User,True,True,2026-09-13
+ACC00571,E0290,Active Directory,Standard User,True,True,2026-08-21
+ACC00572,E0290,AWS Console,Standard User,True,True,2026-09-15
+ACC00573,E0291,Salesforce,Standard User,True,True,2026-08-04
+ACC00574,E0292,Salesforce,Standard User,True,True,2026-08-26
+ACC00575,E0292,SAP ERP,Power User,True,True,2026-09-05
+ACC00576,E0292,Active Directory,Standard User,True,True,2026-08-16
+ACC00577,E0293,AWS Console,Standard User,True,True,2026-09-20
+ACC00578,E0294,Active Directory,Admin,False,True,2025-10-24
+ACC00579,E0295,SAP ERP,Admin,True,True,2026-08-26
+ACC00580,E0296,Active Directory,Standard User,True,True,2026-09-28
+ACC00581,E0296,Salesforce,Standard User,True,True,2026-08-02
+ACC00582,E0297,SAP ERP,Standard User,False,True,2026-07-12
+ACC00583,E0298,Salesforce,Standard User,True,True,2026-09-30
+ACC00584,E0299,Active Directory,Power User,True,True,2026-08-28
+ACC00585,E0299,AWS Console,Standard User,True,True,2026-08-26
+ACC00586,E0300,Active Directory,Standard User,True,True,2026-08-12
+ACC00587,E0300,SAP ERP,Standard User,True,True,2026-09-28
+ACC00588,E0301,Salesforce,Standard User,True,True,2026-09-26
+ACC00589,E0302,Active Directory,Standard User,True,True,2026-09-09
+ACC00590,E0303,Salesforce,Standard User,True,True,2026-09-26
+ACC00591,E0304,AWS Console,Admin,True,True,2026-08-09
+ACC00592,E0304,Active Directory,Standard User,True,True,2026-09-21
+ACC00593,E0304,Salesforce,Standard User,True,True,2026-09-21
+ACC00594,E0305,Active Directory,Standard User,True,True,2026-09-20
+ACC00595,E0305,SAP ERP,Standard User,True,True,2026-09-28
+ACC00596,E0305,Salesforce,Standard User,True,True,2026-08-21
+ACC00597,E0306,Salesforce,Standard User,True,True,2026-09-08
+ACC00598,E0306,Active Directory,Standard User,True,True,2026-09-27
+ACC00599,E0307,Active Directory,Standard User,True,True,2026-09-19
+ACC00600,E0307,SAP ERP,Standard User,True,True,2026-08-15
+ACC00601,E0308,Active Directory,Standard User,True,True,2026-08-16
+ACC00602,E0309,Active Directory,Standard User,False,True,2026-02-17
+ACC00603,E0309,AWS Console,Standard User,False,True,2026-02-21
+ACC00604,E0310,SAP ERP,Standard User,True,True,2026-08-21
+ACC00605,E0311,Salesforce,Standard User,True,True,2026-08-23
+ACC00606,E0311,AWS Console,Power User,True,True,2026-09-06
+ACC00607,E0311,Active Directory,Standard User,True,True,2026-09-30
+ACC00608,E0312,AWS Console,Standard User,True,True,2026-08-12
+ACC00609,E0313,Active Directory,Standard User,True,True,2026-09-08
+ACC00610,E0313,AWS Console,Standard User,True,True,2026-09-03
+ACC00611,E0314,Active Directory,Power User,False,True,2025-11-22
+ACC00612,E0314,SAP ERP,Standard User,False,True,2025-11-26
+ACC00613,E0315,SAP ERP,Admin,True,True,2026-09-07
+ACC00614,E0315,AWS Console,Standard User,True,True,2026-08-08
+ACC00615,E0315,Active Directory,Power User,True,True,2026-08-05
+ACC00616,E0316,AWS Console,Standard User,True,True,2026-04-05
+ACC00617,E0316,Salesforce,Standard User,False,True,2026-02-10
+ACC00618,E0317,AWS Console,Standard User,True,True,2026-09-05
+ACC00619,E0317,Salesforce,Power User,True,True,2026-09-20
+ACC00620,E0317,SAP ERP,Standard User,True,True,2026-09-22
+ACC00621,E0318,AWS Console,Standard User,True,True,2026-09-14
+ACC00622,E0319,SAP ERP,Standard User,True,True,2026-09-30
+ACC00623,E0319,Active Directory,Standard User,True,True,2026-09-06
+ACC00624,E0320,Active Directory,Standard User,True,True,2026-09-28
+ACC00625,E0320,AWS Console,Standard User,True,True,2026-09-09
+ACC00626,E0321,Active Directory,Power User,True,True,2026-08-10
+ACC00627,E0322,Active Directory,Standard User,True,True,2026-08-21
+ACC00628,E0322,AWS Console,Standard User,True,True,2026-09-26
+ACC00629,E0323,Salesforce,Standard User,True,True,2026-08-17
+ACC00630,E0324,SAP ERP,Standard User,False,True,2026-07-17
+ACC00631,E0325,Active Directory,Standard User,True,True,2026-08-29
+ACC00632,E0326,AWS Console,Standard User,True,True,2026-08-25
+ACC00633,E0326,Active Directory,Standard User,True,True,2026-08-25
+ACC00634,E0326,SAP ERP,Standard User,True,True,2026-08-31
+ACC00635,E0327,SAP ERP,Admin,False,True,2026-05-26
+ACC00636,E0327,Active Directory,Admin,False,True,2026-04-29
+ACC00637,E0327,AWS Console,Power User,False,True,2026-05-01
+ACC00638,E0328,SAP ERP,Standard User,True,True,2026-08-05
+ACC00639,E0328,AWS Console,Standard User,True,True,2026-09-27
+ACC00640,E0329,Salesforce,Standard User,True,True,2026-09-09
+ACC00641,E0330,Active Directory,Power User,True,True,2026-08-11
+ACC00642,E0330,SAP ERP,Standard User,True,True,2026-08-28
+ACC00643,E0331,Active Directory,Standard User,True,True,2026-08-14
+ACC00644,E0332,AWS Console,Standard User,True,True,2026-09-16
+ACC00645,E0333,Salesforce,Standard User,True,True,2026-08-07
+ACC00646,E0333,AWS Console,Standard User,True,True,2026-09-06
+ACC00647,E0333,SAP ERP,Standard User,True,True,2026-09-01
+ACC00648,E0334,Active Directory,Standard User,True,True,2026-08-19
+ACC00649,E0335,AWS Console,Admin,True,True,2026-08-11
+ACC00650,E0335,Active Directory,Power User,True,True,2026-08-31
+ACC00651,E0335,Salesforce,Standard User,True,True,2026-08-26
+ACC00652,E0336,AWS Console,Standard User,True,True,2026-01-28
+ACC00653,E0336,Salesforce,Standard User,False,True,2026-01-13
+ACC00654,E0337,AWS Console,Admin,True,True,2026-08-03
+ACC00655,E0337,SAP ERP,Admin,True,True,2026-08-30
+ACC00656,E0338,SAP ERP,Standard User,True,True,2026-09-14
+ACC00657,E0338,AWS Console,Standard User,True,True,2026-08-23
+ACC00658,E0339,AWS Console,Standard User,True,True,2026-09-23
+ACC00659,E0339,Salesforce,Standard User,True,False,2026-09-03
+ACC00660,E0339,Active Directory,Standard User,True,True,2026-09-04
+ACC00661,E0340,AWS Console,Standard User,True,True,2026-08-06
+ACC00662,E0340,Salesforce,Standard User,True,True,2026-09-24
+ACC00663,E0340,Active Directory,Standard User,True,True,2026-09-02
+ACC00664,E0341,SAP ERP,Admin,True,True,2026-08-11
+ACC00665,E0341,Active Directory,Standard User,True,True,2026-08-09
+ACC00666,E0341,AWS Console,Admin,True,True,2026-08-06
+ACC00667,E0342,AWS Console,Standard User,True,True,2026-09-28
+ACC00668,E0342,Active Directory,Standard User,True,True,2026-08-06
+ACC00669,E0342,Salesforce,Standard User,True,True,2026-08-21
+ACC00670,E0343,AWS Console,Standard User,True,True,2026-09-09
+ACC00671,E0343,Active Directory,Standard User,True,True,2026-09-20
+ACC00672,E0344,Active Directory,Standard User,True,True,2026-09-06
+ACC00673,E0344,SAP ERP,Standard User,True,True,2026-09-18
+ACC00674,E0345,Active Directory,Standard User,True,True,2026-08-07
+ACC00675,E0346,Salesforce,Standard User,True,True,2026-09-11
+ACC00676,E0346,SAP ERP,Standard User,True,True,2026-09-08
+ACC00677,E0347,Active Directory,Standard User,True,True,2026-08-10
+ACC00678,E0347,AWS Console,Standard User,True,True,2026-09-13
+ACC00679,E0348,AWS Console,Power User,True,True,2026-08-22
+ACC00680,E0348,Active Directory,Standard User,True,True,2026-08-04
+ACC00681,E0348,SAP ERP,Standard User,True,True,2026-09-28
+ACC00682,E0349,Salesforce,Standard User,True,True,2025-11-07
+ACC00683,E0349,Active Directory,Admin,False,True,2025-11-13
+ACC00684,E0350,Active Directory,Standard User,True,True,2026-09-17
+ACC00685,E0350,AWS Console,Standard User,True,True,2026-09-22
+ACC00686,E0350,Salesforce,Standard User,True,True,2026-09-16
+ACC00687,E0351,Active Directory,Standard User,True,True,2026-09-28
+ACC00688,E0351,AWS Console,Standard User,True,True,2026-09-17
+ACC00689,E0352,Salesforce,Standard User,True,True,2026-08-11
+ACC00690,E0352,Active Directory,Standard User,True,True,2026-09-15
+ACC00691,E0353,AWS Console,Admin,True,True,2026-09-26
+ACC00692,E0353,Active Directory,Standard User,True,True,2026-08-16
+ACC00693,E0353,Salesforce,Admin,True,True,2026-08-04
+ACC00694,E0354,SAP ERP,Standard User,True,True,2026-08-30
+ACC00695,E0354,AWS Console,Standard User,True,True,2026-09-10
+ACC00696,E0355,Active Directory,Standard User,True,True,2026-09-01
+ACC00697,E0356,AWS Console,Standard User,True,True,2026-08-23
+ACC00698,E0356,Active Directory,Standard User,True,True,2026-09-23
+ACC00699,E0356,SAP ERP,Power User,True,True,2026-09-17
+ACC00700,E0357,Active Directory,Standard User,True,True,2026-09-06
+ACC00701,E0357,SAP ERP,Standard User,True,False,2026-08-15
+ACC00702,E0357,AWS Console,Standard User,True,True,2026-08-18
+ACC00703,E0358,AWS Console,Power User,True,True,2026-09-13
+ACC00704,E0358,Salesforce,Admin,True,True,2026-09-28
+ACC00705,E0358,Active Directory,Admin,True,True,2026-08-12
+ACC00706,E0359,Active Directory,Power User,True,False,2026-09-15
+ACC00707,E0359,AWS Console,Standard User,True,True,2026-08-28
+ACC00708,E0359,SAP ERP,Power User,True,True,2026-08-30
+ACC00709,E0360,SAP ERP,Standard User,True,True,2026-09-03
+ACC00710,E0360,AWS Console,Standard User,True,True,2026-08-26
+ACC00711,E0361,Active Directory,Standard User,True,True,2026-08-19
+ACC00712,E0361,AWS Console,Admin,True,True,2026-08-07
+ACC00713,E0361,SAP ERP,Standard User,True,True,2026-08-18
+ACC00714,E0362,Salesforce,Power User,True,True,2026-09-11
+ACC00715,E0362,SAP ERP,Admin,True,True,2026-08-10
+ACC00716,E0362,AWS Console,Standard User,True,True,2026-08-04
+ACC00717,E0363,AWS Console,Standard User,True,True,2026-09-16
+ACC00718,E0363,Salesforce,Standard User,True,True,2026-09-01
+ACC00719,E0363,SAP ERP,Power User,True,True,2026-08-17
+ACC00720,E0364,AWS Console,Standard User,True,True,2026-09-07
+ACC00721,E0364,SAP ERP,Standard User,True,True,2026-09-06
+ACC00722,E0365,Salesforce,Standard User,True,True,2026-08-15
+ACC00723,E0366,AWS Console,Standard User,True,True,2026-09-23
+ACC00724,E0366,Salesforce,Standard User,True,True,2026-08-19
+ACC00725,E0366,SAP ERP,Admin,True,True,2026-08-09
+ACC00726,E0367,Salesforce,Power User,True,True,2026-09-27
+ACC00727,E0367,AWS Console,Standard User,True,True,2026-08-06
+ACC00728,E0367,Active Directory,Standard User,True,True,2026-08-15
+ACC00729,E0368,Salesforce,Standard User,True,True,2026-08-30
+ACC00730,E0368,SAP ERP,Standard User,True,True,2026-09-25
+ACC00731,E0368,AWS Console,Standard User,True,True,2026-09-09
+ACC00732,E0369,AWS Console,Power User,True,True,2026-09-02
+ACC00733,E0370,AWS Console,Standard User,True,True,2026-09-25
+ACC00734,E0371,SAP ERP,Standard User,True,True,2026-09-06
+ACC00735,E0372,SAP ERP,Power User,True,True,2026-08-12
+ACC00736,E0372,AWS Console,Standard User,True,True,2026-09-01
+ACC00737,E0373,SAP ERP,Standard User,True,True,2026-08-01
+ACC00738,E0373,AWS Console,Standard User,True,True,2026-08-14
+ACC00739,E0374,SAP ERP,Standard User,True,True,2026-09-18
+ACC00740,E0375,SAP ERP,Standard User,False,True,2025-11-03
+ACC00741,E0376,AWS Console,Standard User,True,True,2026-09-04
+ACC00742,E0376,SAP ERP,Standard User,True,True,2026-08-24
+ACC00743,E0377,Salesforce,Standard User,True,True,2026-09-03
+ACC00744,E0378,Active Directory,Standard User,True,True,2026-09-10
+ACC00745,E0379,SAP ERP,Standard User,True,True,2026-08-07
+ACC00746,E0379,Active Directory,Standard User,True,True,2026-09-07
+ACC00747,E0379,AWS Console,Standard User,True,True,2026-08-05
+ACC00748,E0380,Salesforce,Power User,True,True,2026-08-30
+ACC00749,E0381,Salesforce,Standard User,True,True,2026-09-28
+ACC00750,E0381,SAP ERP,Standard User,False,True,2026-09-05
+ACC00751,E0381,Active Directory,Standard User,False,True,2026-09-11
+ACC00752,E0382,Active Directory,Standard User,True,True,2026-08-09
+ACC00753,E0382,AWS Console,Standard User,True,True,2026-08-02
+ACC00754,E0383,SAP ERP,Standard User,True,True,2026-08-25
+ACC00755,E0383,Active Directory,Standard User,True,True,2026-09-04
+ACC00756,E0383,AWS Console,Standard User,True,True,2026-08-04
+ACC00757,E0384,Active Directory,Standard User,True,True,2026-08-08
+ACC00758,E0384,Salesforce,Standard User,True,True,2026-08-25
+ACC00759,E0384,AWS Console,Standard User,True,True,2026-08-17
+ACC00760,E0385,SAP ERP,Standard User,False,True,2026-02-04
+ACC00761,E0385,Active Directory,Standard User,False,True,2026-02-11
+ACC00762,E0386,SAP ERP,Standard User,True,True,2026-09-16
+ACC00763,E0386,AWS Console,Standard User,True,True,2026-09-20
+ACC00764,E0387,AWS Console,Standard User,True,True,2026-08-13
+ACC00765,E0388,SAP ERP,Standard User,True,True,2026-08-03
+ACC00766,E0388,AWS Console,Power User,True,True,2026-09-14
+ACC00767,E0389,Salesforce,Admin,True,True,2026-09-12
+ACC00768,E0389,Active Directory,Admin,True,True,2026-08-08
+ACC00769,E0390,AWS Console,Standard User,True,True,2026-08-05
+ACC00770,E0390,Active Directory,Standard User,True,True,2026-08-07
+ACC00771,E0390,Salesforce,Power User,True,True,2026-09-11
+ACC00772,E0391,AWS Console,Power User,True,True,2026-08-19
+ACC00773,E0392,AWS Console,Standard User,True,True,2026-08-12
+ACC00774,E0392,Active Directory,Power User,True,True,2026-09-24
+ACC00775,E0393,Salesforce,Standard User,True,True,2026-09-17
+ACC00776,E0393,AWS Console,Standard User,True,True,2026-09-24
+ACC00777,E0394,Active Directory,Power User,True,True,2026-09-12
+ACC00778,E0395,SAP ERP,Power User,False,True,2026-07-23
+ACC00779,E0395,AWS Console,Standard User,False,True,2026-08-10
+ACC00780,E0395,Salesforce,Standard User,False,True,2026-07-27
+ACC00781,E0396,Salesforce,Standard User,True,True,2026-08-31
+ACC00782,E0396,SAP ERP,Standard User,True,True,2026-09-11
+ACC00783,E0397,Active Directory,Standard User,True,True,2026-09-16
+ACC00784,E0398,SAP ERP,Standard User,True,True,2026-09-28
+ACC00785,E0399,AWS Console,Admin,True,True,2026-08-25
+ACC00786,E0399,Salesforce,Standard User,True,True,2026-09-25
+ACC00787,E0399,SAP ERP,Standard User,True,True,2026-09-27
+ACC00788,E0400,AWS Console,Standard User,True,True,2026-08-27
+ACC00789,E0401,Active Directory,Standard User,True,True,2026-08-21
+ACC00790,E0401,AWS Console,Standard User,True,True,2026-09-25
+ACC00791,E0402,SAP ERP,Standard User,True,True,2026-09-14
+ACC00792,E0402,Salesforce,Standard User,True,True,2026-08-07
+ACC00793,E0402,AWS Console,Standard User,True,True,2026-09-16
+ACC00794,E0403,AWS Console,Standard User,True,True,2026-09-13
+ACC00795,E0404,AWS Console,Admin,True,True,2026-09-29
+ACC00796,E0404,Active Directory,Admin,True,True,2026-09-24
+ACC00797,E0404,Salesforce,Standard User,True,True,2026-08-11
+ACC00798,E0405,AWS Console,Standard User,True,True,2026-08-22
+ACC00799,E0406,Active Directory,Standard User,True,True,2026-09-11
+ACC00800,E0406,Salesforce,Standard User,True,True,2026-09-22
+ACC00801,E0407,Active Directory,Standard User,True,True,2026-09-21
+ACC00802,E0408,AWS Console,Standard User,True,True,2026-08-08
+ACC00803,E0408,Active Directory,Power User,True,True,2026-09-17
+ACC00804,E0408,SAP ERP,Standard User,True,True,2026-08-07
+ACC00805,E0409,AWS Console,Standard User,True,True,2026-08-06
+ACC00806,E0409,Active Directory,Power User,True,True,2026-09-10
+ACC00807,E0410,SAP ERP,Standard User,True,True,2026-09-30
+ACC00808,E0410,Salesforce,Standard User,True,True,2026-09-22
+ACC00809,E0411,SAP ERP,Standard User,True,True,2026-09-19
+ACC00810,E0412,AWS Console,Standard User,True,True,2026-09-18
+ACC00811,E0412,Salesforce,Standard User,True,True,2026-08-23
+ACC00812,E0412,SAP ERP,Power User,True,True,2026-08-19
+ACC00813,E0413,Salesforce,Standard User,True,True,2026-08-11
+ACC00814,E0413,AWS Console,Standard User,True,True,2026-09-22
+ACC00815,E0413,Active Directory,Standard User,True,True,2026-09-16
+ACC00816,E0414,Active Directory,Standard User,True,True,2026-08-13
+ACC00817,E0414,SAP ERP,Standard User,True,True,2026-09-24
+ACC00818,E0415,SAP ERP,Standard User,True,True,2026-08-22
+ACC00819,E0415,AWS Console,Admin,True,False,2026-08-27
+ACC00820,E0416,Active Directory,Standard User,True,True,2026-09-12
+ACC00821,E0417,SAP ERP,Standard User,True,True,2026-09-29
+ACC00822,E0417,AWS Console,Standard User,True,True,2026-09-29
+ACC00823,E0417,Active Directory,Power User,True,False,2026-08-12
+ACC00824,E0418,SAP ERP,Admin,True,True,2026-09-12
+ACC00825,E0418,Salesforce,Power User,True,True,2026-09-02
+ACC00826,E0418,Active Directory,Standard User,True,True,2026-09-08
+ACC00827,E0419,SAP ERP,Power User,True,True,2026-08-29
+ACC00828,E0419,AWS Console,Standard User,True,True,2026-09-08
+ACC00829,E0419,Salesforce,Standard User,True,True,2026-08-20
+ACC00830,E0420,Salesforce,Standard User,True,True,2026-09-09
+ACC00831,E0420,AWS Console,Standard User,True,True,2026-09-13
+ACC00832,E0420,Active Directory,Standard User,True,True,2026-09-13
+ACC00833,E0421,SAP ERP,Standard User,True,True,2026-08-21
+ACC00834,E0422,Active Directory,Standard User,True,True,2026-05-01
+ACC00835,E0422,SAP ERP,Standard User,False,True,2026-04-14
+ACC00836,E0422,Salesforce,Standard User,False,True,2026-04-29
+ACC00837,E0423,Salesforce,Standard User,True,True,2026-08-02
+ACC00838,E0423,SAP ERP,Standard User,True,True,2026-08-04
+ACC00839,E0423,Active Directory,Standard User,True,True,2026-08-13
+ACC00840,E0424,SAP ERP,Standard User,True,True,2026-08-10
+ACC00841,E0424,AWS Console,Standard User,True,True,2026-09-14
+ACC00842,E0425,SAP ERP,Standard User,True,True,2026-09-22
+ACC00843,E0425,Salesforce,Standard User,True,False,2026-09-09
+ACC00844,E0426,SAP ERP,Admin,True,True,2026-09-20
+ACC00845,E0426,Salesforce,Standard User,True,True,2026-09-14
+ACC00846,E0426,AWS Console,Power User,True,True,2026-08-25
+ACC00847,E0427,Salesforce,Admin,True,True,2026-09-17
+ACC00848,E0427,AWS Console,Admin,True,True,2026-09-09
+ACC00849,E0428,SAP ERP,Standard User,True,True,2026-09-11
+ACC00850,E0428,Salesforce,Standard User,True,True,2026-09-07
+ACC00851,E0429,SAP ERP,Standard User,False,True,2025-12-30
+ACC00852,E0429,Salesforce,Power User,False,True,2025-12-27
+ACC00853,E0429,Active Directory,Standard User,False,True,2025-12-30
+ACC00854,E0430,Active Directory,Standard User,True,True,2026-08-09
+ACC00855,E0430,SAP ERP,Admin,True,True,2026-09-24
+ACC00856,E0430,AWS Console,Admin,True,True,2026-08-22
+ACC00857,E0431,SAP ERP,Admin,True,True,2026-08-21
+ACC00858,E0431,Active Directory,Standard User,True,True,2026-09-10
+ACC00859,E0432,Salesforce,Standard User,True,True,2026-09-15
+ACC00860,E0432,SAP ERP,Standard User,True,True,2026-08-15
+ACC00861,E0432,AWS Console,Power User,True,True,2026-09-03
+ACC00862,E0433,SAP ERP,Standard User,True,True,2026-09-04
+ACC00863,E0434,Active Directory,Standard User,False,True,2026-08-17
+ACC00864,E0434,SAP ERP,Standard User,False,True,2026-08-21
+ACC00865,E0435,Salesforce,Power User,True,True,2026-09-09
+ACC00866,E0435,Active Directory,Standard User,True,True,2026-09-05
+ACC00867,E0436,Active Directory,Standard User,True,True,2026-09-27
+ACC00868,E0436,AWS Console,Standard User,True,True,2026-09-28
+ACC00869,E0436,SAP ERP,Standard User,True,True,2026-08-03
+ACC00870,E0437,Salesforce,Standard User,True,True,2026-09-04
+ACC00871,E0437,SAP ERP,Standard User,True,True,2026-08-02
+ACC00872,E0437,Active Directory,Power User,True,True,2026-09-22
+ACC00873,E0438,AWS Console,Standard User,True,True,2026-09-27
+ACC00874,E0438,SAP ERP,Standard User,True,True,2026-08-21
+ACC00875,E0439,Active Directory,Power User,True,True,2026-09-19
+ACC00876,E0439,AWS Console,Standard User,True,True,2026-08-01
+ACC00877,E0439,Salesforce,Standard User,True,True,2026-08-14
+ACC00878,E0440,SAP ERP,Standard User,False,True,2026-02-28
+ACC00879,E0440,Salesforce,Power User,False,True,2026-02-26
+ACC00880,E0440,AWS Console,Standard User,False,True,2026-02-04
+ACC00881,E0441,SAP ERP,Standard User,True,True,2026-08-03
+ACC00882,E0441,Active Directory,Standard User,True,True,2026-08-04
+ACC00883,E0441,AWS Console,Standard User,True,True,2026-08-17
+ACC00884,E0442,Active Directory,Power User,False,True,2026-05-24
+ACC00885,E0442,Salesforce,Standard User,False,True,2026-05-31
+ACC00886,E0442,AWS Console,Standard User,False,True,2026-05-21
+ACC00887,E0443,AWS Console,Standard User,False,True,2026-06-20
+ACC00888,E0444,Active Directory,Standard User,False,True,2026-08-28
+ACC00889,E0445,Active Directory,Standard User,True,True,2026-08-19
+ACC00890,E0446,Salesforce,Standard User,True,True,2026-09-29
+ACC00891,E0446,AWS Console,Standard User,True,True,2026-08-26
+ACC00892,E0446,Active Directory,Standard User,True,True,2026-08-02
+ACC00893,E0447,SAP ERP,Standard User,True,True,2026-09-17
+ACC00894,E0447,Salesforce,Standard User,True,True,2026-09-21
+ACC00895,E0448,Salesforce,Standard User,False,True,2026-04-25
+ACC00896,E0448,AWS Console,Power User,False,True,2026-04-22
+ACC00897,E0448,Active Directory,Power User,False,True,2026-04-17
+ACC00898,E0449,Active Directory,Power User,True,True,2026-08-10
+ACC00899,E0449,Salesforce,Standard User,True,True,2026-08-01
+ACC00900,E0450,AWS Console,Standard User,True,True,2026-09-17
+ACC00901,E0450,Salesforce,Standard User,True,True,2026-09-16
+ACC00902,E0450,Active Directory,Standard User,True,True,2026-08-27
+ACC00903,E0451,SAP ERP,Standard User,True,True,2026-09-23
+ACC00904,E0451,Active Directory,Standard User,True,True,2026-08-08
+ACC00905,E0451,Salesforce,Standard User,True,True,2026-09-21
+ACC00906,E0452,Active Directory,Standard User,True,True,2026-09-12
+ACC00907,E0452,Salesforce,Admin,True,True,2026-08-07
+ACC00908,E0452,SAP ERP,Admin,True,True,2026-09-07
+ACC00909,E0453,Salesforce,Admin,True,True,2026-09-11
+ACC00910,E0453,SAP ERP,Admin,True,True,2026-08-19
+ACC00911,E0454,Active Directory,Standard User,False,True,2025-11-12
+ACC00912,E0454,AWS Console,Standard User,False,True,2025-11-11
+ACC00913,E0454,SAP ERP,Standard User,False,True,2025-11-06
+ACC00914,E0455,Salesforce,Admin,True,True,2026-08-21
+ACC00915,E0455,SAP ERP,Admin,True,True,2026-08-15
+ACC00916,E0455,AWS Console,Standard User,True,True,2026-08-18
+ACC00917,E0456,SAP ERP,Standard User,False,True,2026-08-22
+ACC00918,E0456,Salesforce,Standard User,False,True,2026-08-08
+ACC00919,E0457,Salesforce,Standard User,True,True,2026-08-12
+ACC00920,E0457,SAP ERP,Standard User,True,True,2026-08-06
+ACC00921,E0458,SAP ERP,Standard User,True,True,2026-09-16
+ACC00922,E0458,Salesforce,Power User,True,True,2026-08-05
+ACC00923,E0459,Active Directory,Standard User,True,True,2026-09-07
+ACC00924,E0459,AWS Console,Standard User,True,True,2026-09-07
+ACC00925,E0459,Salesforce,Standard User,True,True,2026-08-03
+ACC00926,E0460,Salesforce,Standard User,True,True,2026-08-10
+ACC00927,E0460,AWS Console,Standard User,True,True,2026-08-15
+ACC00928,E0460,SAP ERP,Power User,True,True,2026-09-07
+ACC00929,E0461,Salesforce,Standard User,True,True,2026-08-24
+ACC00930,E0461,Active Directory,Standard User,True,True,2026-09-24
+ACC00931,E0461,SAP ERP,Power User,True,True,2026-09-13
+ACC00932,E0462,SAP ERP,Standard User,True,False,2026-09-30
+ACC00933,E0463,SAP ERP,Power User,True,True,2026-08-03
+ACC00934,E0463,Salesforce,Standard User,True,True,2026-09-01
+ACC00935,E0463,AWS Console,Standard User,True,True,2026-08-17
+ACC00936,E0464,SAP ERP,Standard User,True,True,2026-09-03
+ACC00937,E0464,Active Directory,Power User,True,True,2026-08-24
+ACC00938,E0465,AWS Console,Standard User,True,True,2026-09-11
+ACC00939,E0465,SAP ERP,Standard User,True,True,2026-09-03
+ACC00940,E0466,Salesforce,Standard User,True,True,2025-11-19
+ACC00941,E0466,AWS Console,Standard User,False,True,2025-11-27
+ACC00942,E0466,SAP ERP,Standard User,False,True,2025-11-15
+ACC00943,E0467,SAP ERP,Standard User,False,True,2026-01-11
+ACC00944,E0467,Salesforce,Standard User,False,True,2026-01-19
+ACC00945,E0468,SAP ERP,Standard User,True,True,2026-08-15
+ACC00946,E0469,Salesforce,Standard User,True,True,2026-08-12
+ACC00947,E0470,Salesforce,Standard User,True,True,2026-09-22
+ACC00948,E0471,SAP ERP,Standard User,False,True,2026-03-15
+ACC00949,E0472,Active Directory,Standard User,True,True,2026-09-07
+ACC00950,E0472,SAP ERP,Standard User,True,True,2026-09-23
+ACC00951,E0472,Salesforce,Standard User,True,True,2026-08-16
+ACC00952,E0473,SAP ERP,Standard User,True,True,2026-08-11
+ACC00953,E0474,Active Directory,Standard User,True,True,2026-08-11
+ACC00954,E0475,SAP ERP,Power User,True,True,2026-09-08
+ACC00955,E0475,Salesforce,Power User,True,True,2026-09-10
+ACC00956,E0476,Salesforce,Power User,True,True,2026-08-14
+ACC00957,E0477,AWS Console,Standard User,True,True,2026-09-23
+ACC00958,E0477,SAP ERP,Standard User,True,True,2026-08-10
+ACC00959,E0478,SAP ERP,Admin,False,True,2026-05-07
+ACC00960,E0478,Salesforce,Standard User,False,True,2026-05-04
+ACC00961,E0478,AWS Console,Admin,False,True,2026-04-28
+ACC00962,E0479,SAP ERP,Standard User,False,True,2026-07-25
+ACC00963,E0479,Active Directory,Power User,False,True,2026-07-25
+ACC00964,E0480,AWS Console,Standard User,True,True,2026-08-14
+ACC00965,E0480,Active Directory,Standard User,False,True,2026-07-18
+ACC00966,E0480,Salesforce,Power User,False,True,2026-08-03
+ACC00967,E0481,Active Directory,Standard User,True,True,2026-09-27
+ACC00968,E0481,AWS Console,Standard User,True,True,2026-09-22
+ACC00969,E0481,SAP ERP,Standard User,True,True,2026-09-30
+ACC00970,E0482,AWS Console,Standard User,True,True,2026-08-03
+ACC00971,E0482,Salesforce,Standard User,True,True,2026-08-28
+ACC00972,E0482,SAP ERP,Standard User,True,True,2026-09-21
+ACC00973,E0483,AWS Console,Standard User,True,True,2026-09-17
+ACC00974,E0483,SAP ERP,Power User,True,True,2026-09-23
+ACC00975,E0484,Active Directory,Admin,True,True,2026-09-19
+ACC00976,E0484,SAP ERP,Admin,True,True,2026-09-24
+ACC00977,E0484,AWS Console,Admin,True,True,2026-09-08
+ACC00978,E0485,AWS Console,Admin,False,True,2026-07-03
+ACC00979,E0485,SAP ERP,Standard User,False,True,2026-06-13
+ACC00980,E0485,Active Directory,Standard User,False,True,2026-06-16
+ACC00981,E0486,Salesforce,Standard User,True,True,2026-08-28
+ACC00982,E0486,SAP ERP,Standard User,True,True,2026-08-17
+ACC00983,E0486,AWS Console,Standard User,True,True,2026-09-04
+ACC00984,E0487,Salesforce,Standard User,True,True,2026-09-13
+ACC00985,E0487,AWS Console,Standard User,True,True,2026-08-14
+ACC00986,E0488,AWS Console,Standard User,True,True,2026-09-05
+ACC00987,E0488,Active Directory,Standard User,True,True,2026-08-20
+ACC00988,E0489,Salesforce,Standard User,True,True,2026-09-24
+ACC00989,E0489,AWS Console,Power User,True,True,2026-08-08
+ACC00990,E0489,SAP ERP,Standard User,True,True,2026-08-29
+ACC00991,E0490,SAP ERP,Standard User,True,True,2026-09-21
+ACC00992,E0490,Active Directory,Standard User,True,True,2026-09-15
+ACC00993,E0490,Salesforce,Admin,True,True,2026-08-25
+ACC00994,E0491,Active Directory,Standard User,True,True,2026-09-08
+ACC00995,E0491,AWS Console,Standard User,True,True,2026-08-05
+ACC00996,E0491,Salesforce,Standard User,True,True,2026-08-24
+ACC00997,E0492,Active Directory,Standard User,True,True,2026-09-29
+ACC00998,E0493,Salesforce,Power User,True,True,2026-08-04
+ACC00999,E0493,AWS Console,Power User,True,True,2026-09-22
+ACC01000,E0494,AWS Console,Standard User,True,True,2025-11-27
+ACC01001,E0495,Salesforce,Standard User,True,True,2026-09-02
+ACC01002,E0495,Active Directory,Standard User,True,True,2026-08-15
+ACC01003,E0495,AWS Console,Standard User,True,True,2026-09-13
+ACC01004,E0496,Salesforce,Admin,True,True,2026-08-01
+ACC01005,E0497,Active Directory,Standard User,True,True,2026-08-23
+ACC01006,E0498,AWS Console,Standard User,True,True,2026-09-17
+ACC01007,E0498,SAP ERP,Standard User,True,True,2026-09-28
+ACC01008,E0498,Active Directory,Standard User,True,True,2026-08-19
+ACC01009,E0499,Salesforce,Standard User,True,True,2026-08-13
+ACC01010,E0499,SAP ERP,Standard User,True,True,2026-08-26
+ACC01011,E0499,AWS Console,Standard User,True,True,2026-08-17
+ACC01012,E0500,AWS Console,Standard User,True,True,2026-09-05

@@ -1,0 +1,51 @@
+control_id,exception_type,record_id,employee_id,details
+AC-01,Terminated user with active access,ACC00111,E0058,"Terminated 2025-10-10; account still active; HIGH RISK: logged in 2026-09-06, after termination"
+AC-01,Terminated user with active access,ACC00270,E0137,"Terminated 2025-10-21; account still active; HIGH RISK: logged in 2026-06-10, after termination"
+AC-01,Terminated user with active access,ACC00459,E0231,"Terminated 2026-07-04; account still active; HIGH RISK: logged in 2026-07-16, after termination"
+AC-01,Terminated user with active access,ACC00749,E0381,"Terminated 2026-09-11; account still active; HIGH RISK: logged in 2026-09-28, after termination"
+AC-01,Terminated user with active access,ACC00616,E0316,"Terminated 2026-03-07; account still active; HIGH RISK: logged in 2026-04-05, after termination"
+AC-01,Terminated user with active access,ACC00462,E0232,Terminated 2026-08-29; account still active
+AC-01,Terminated user with active access,ACC00436,E0220,Terminated 2026-09-13; account still active
+AC-01,Terminated user with active access,ACC00834,E0422,Terminated 2026-05-01; account still active
+AC-01,Terminated user with active access,ACC00241,E0123,Terminated 2026-07-11; account still active
+AC-01,Terminated user with active access,ACC00682,E0349,Terminated 2025-11-28; account still active
+AC-01,Terminated user with active access,ACC00964,E0480,Terminated 2026-08-16; account still active
+AC-01,Terminated user with active access,ACC01000,E0494,Terminated 2025-12-06; account still active
+AC-01,Terminated user with active access,ACC00209,E0106,Terminated 2026-07-24; account still active
+AC-01,Terminated user with active access,ACC00940,E0466,Terminated 2025-12-07; account still active
+AC-01,Terminated user with active access,ACC00652,E0336,Terminated 2026-02-07; account still active
+AC-02,Active account without MFA,ACC00219,E0109,Standard User on Salesforce
+AC-02,Active account without MFA,ACC00932,E0462,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00701,E0357,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00823,E0417,Power User on Active Directory
+AC-02,Active account without MFA,ACC00659,E0339,Standard User on Salesforce
+AC-02,Active account without MFA,ACC00165,E0085,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00479,E0239,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00505,E0253,Standard User on AWS Console
+AC-02,Active account without MFA,ACC00392,E0196,Standard User on AWS Console
+AC-02,Active account without MFA,ACC00546,E0274,Power User on Active Directory
+AC-02,Active account without MFA,ACC00028,E0013,Power User on SAP ERP
+AC-02,Active account without MFA,ACC00218,E0109,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00549,E0275,Standard User on Active Directory
+AC-02,Active account without MFA,ACC00706,E0359,Power User on Active Directory
+AC-02,Active account without MFA,ACC00843,E0425,Standard User on Salesforce
+AC-02,Active account without MFA,ACC00245,E0126,Admin on Salesforce
+AC-02,Active account without MFA,ACC00550,E0275,Standard User on Salesforce
+AC-02,Active account without MFA,ACC00103,E0053,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00303,E0152,Standard User on SAP ERP
+AC-02,Active account without MFA,ACC00819,E0415,Admin on AWS Console
+CM-02,Change approved by its own requester,CHG-0167,E0156,Requester and approver are the same person
+CM-02,Change approved by its own requester,CHG-0183,E0280,Requester and approver are the same person
+CM-02,Change approved by its own requester,CHG-0042,E0190,Requester and approver are the same person
+CM-02,Change approved by its own requester,CHG-0184,E0421,Requester and approver are the same person
+CM-02,Change approved by its own requester,CHG-0188,E0337,Requester and approver are the same person
+CM-01,Deployment without change ticket,DEP-0033,E0353,Deployed to Active Directory on 2025-12-09
+CM-01,Deployment without change ticket,DEP-0047,E0419,Deployed to Active Directory on 2025-12-29
+CM-01,Deployment without change ticket,DEP-0100,E0178,Deployed to SAP ERP on 2026-03-23
+CM-01,Deployment without change ticket,DEP-0116,E0245,Deployed to Salesforce on 2026-04-30
+CM-01,Deployment without change ticket,DEP-0138,E0462,Deployed to AWS Console on 2026-05-31
+CM-01,Deployment without change ticket,DEP-0154,E0419,Deployed to Active Directory on 2026-06-24
+CM-01,Deployment without change ticket,DEP-0163,E0453,Deployed to AWS Console on 2026-07-02
+CM-01,Deployment without change ticket,DEP-0165,E0280,Deployed to Salesforce on 2026-07-02
+CM-01,Deployment without change ticket,DEP-0186,E0079,Deployed to AWS Console on 2026-08-18
+CM-01,Deployment without change ticket,DEP-0200,E0295,Deployed to Salesforce on 2026-09-13
