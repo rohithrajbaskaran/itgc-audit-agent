@@ -1,0 +1,51 @@
+control_id,record_id,employee_id,system,condition,risk_rating,escalated
+AC-01,ACC00111,E0058,Salesforce,"Employee terminated 2025-10-10 but Salesforce account remains active; account used 2026-09-06, 331 days after termination",Critical,True
+AC-01,ACC00209,E0106,AWS Console,Employee terminated 2026-07-24 but AWS Console account remains active,High,False
+AC-01,ACC00241,E0123,Salesforce,Employee terminated 2026-07-11 but Salesforce account remains active,High,False
+AC-01,ACC00270,E0137,AWS Console,"Employee terminated 2025-10-21 but AWS Console account remains active; account used 2026-06-10, 232 days after termination",Critical,True
+AC-01,ACC00436,E0220,Salesforce,Employee terminated 2026-09-13 but Salesforce account remains active,High,False
+AC-01,ACC00459,E0231,SAP ERP,"Employee terminated 2026-07-04 but SAP ERP account remains active; account used 2026-07-16, 12 days after termination",Critical,True
+AC-01,ACC00462,E0232,SAP ERP,Employee terminated 2026-08-29 but SAP ERP account remains active,High,False
+AC-01,ACC00616,E0316,AWS Console,"Employee terminated 2026-03-07 but AWS Console account remains active; account used 2026-04-05, 29 days after termination",Critical,True
+AC-01,ACC00652,E0336,AWS Console,Employee terminated 2026-02-07 but AWS Console account remains active,High,False
+AC-01,ACC00682,E0349,Salesforce,Employee terminated 2025-11-28 but Salesforce account remains active,High,False
+AC-01,ACC00749,E0381,Salesforce,"Employee terminated 2026-09-11 but Salesforce account remains active; account used 2026-09-28, 17 days after termination",Critical,True
+AC-01,ACC00834,E0422,Active Directory,Employee terminated 2026-05-01 but Active Directory account remains active,High,False
+AC-01,ACC00940,E0466,Salesforce,Employee terminated 2025-12-07 but Salesforce account remains active,High,False
+AC-01,ACC00964,E0480,AWS Console,Employee terminated 2026-08-16 but AWS Console account remains active,High,False
+AC-01,ACC01000,E0494,AWS Console,Employee terminated 2025-12-06 but AWS Console account remains active,High,False
+AC-02,ACC00028,E0013,SAP ERP,Active Power User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00103,E0053,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00165,E0085,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00218,E0109,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00219,E0109,Salesforce,Active Standard User account on Salesforce does not have MFA enabled,Medium,False
+AC-02,ACC00245,E0126,Salesforce,Active Admin account on Salesforce does not have MFA enabled,High,True
+AC-02,ACC00303,E0152,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00392,E0196,AWS Console,Active Standard User account on AWS Console does not have MFA enabled,Medium,False
+AC-02,ACC00479,E0239,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00505,E0253,AWS Console,Active Standard User account on AWS Console does not have MFA enabled,Medium,False
+AC-02,ACC00546,E0274,Active Directory,Active Power User account on Active Directory does not have MFA enabled,Medium,False
+AC-02,ACC00549,E0275,Active Directory,Active Standard User account on Active Directory does not have MFA enabled,Medium,False
+AC-02,ACC00550,E0275,Salesforce,Active Standard User account on Salesforce does not have MFA enabled,Medium,False
+AC-02,ACC00659,E0339,Salesforce,Active Standard User account on Salesforce does not have MFA enabled,Medium,False
+AC-02,ACC00701,E0357,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+AC-02,ACC00706,E0359,Active Directory,Active Power User account on Active Directory does not have MFA enabled,Medium,False
+AC-02,ACC00819,E0415,AWS Console,Active Admin account on AWS Console does not have MFA enabled,High,True
+AC-02,ACC00823,E0417,Active Directory,Active Power User account on Active Directory does not have MFA enabled,Medium,False
+AC-02,ACC00843,E0425,Salesforce,Active Standard User account on Salesforce does not have MFA enabled,Medium,False
+AC-02,ACC00932,E0462,SAP ERP,Active Standard User account on SAP ERP does not have MFA enabled,Medium,False
+CM-01,DEP-0033,E0353,Active Directory,Deployment to Active Directory on 2025-12-09 has no change ticket,High,False
+CM-01,DEP-0047,E0419,Active Directory,Deployment to Active Directory on 2025-12-29 has no change ticket,High,False
+CM-01,DEP-0100,E0178,SAP ERP,Deployment to SAP ERP on 2026-03-23 has no change ticket,Critical,True
+CM-01,DEP-0116,E0245,Salesforce,Deployment to Salesforce on 2026-04-30 has no change ticket,High,False
+CM-01,DEP-0138,E0462,AWS Console,Deployment to AWS Console on 2026-05-31 has no change ticket,High,False
+CM-01,DEP-0154,E0419,Active Directory,Deployment to Active Directory on 2026-06-24 has no change ticket,High,False
+CM-01,DEP-0163,E0453,AWS Console,Deployment to AWS Console on 2026-07-02 has no change ticket,High,False
+CM-01,DEP-0165,E0280,Salesforce,Deployment to Salesforce on 2026-07-02 has no change ticket,High,False
+CM-01,DEP-0186,E0079,AWS Console,Deployment to AWS Console on 2026-08-18 has no change ticket,High,False
+CM-01,DEP-0200,E0295,Salesforce,Deployment to Salesforce on 2026-09-13 has no change ticket,High,False
+CM-02,CHG-0042,E0190,AWS Console,Change 'Upgrade application version' on AWS Console was requested and approved by the same person,High,False
+CM-02,CHG-0167,E0156,SAP ERP,Change 'Change firewall rule' on SAP ERP was requested and approved by the same person,Critical,True
+CM-02,CHG-0183,E0280,SAP ERP,Change 'Update user role permissions' on SAP ERP was requested and approved by the same person,Critical,True
+CM-02,CHG-0184,E0421,Active Directory,Change 'Deploy new reporting feature' on Active Directory was requested and approved by the same person,High,False
+CM-02,CHG-0188,E0337,SAP ERP,Change 'Modify database configuration' on SAP ERP was requested and approved by the same person,Critical,True

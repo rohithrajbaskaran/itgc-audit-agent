@@ -1,0 +1,5 @@
+control_id,control,population,exceptions,escalated,result
+AC-01,Timely removal of terminated user access,1012,15,5,Exceptions noted
+AC-02,Multi-factor authentication enforced,1012,20,2,Exceptions noted
+CM-01,Production changes are authorized,210,10,1,Exceptions noted
+CM-02,Segregation of duties in change approval,200,5,3,Exceptions noted
