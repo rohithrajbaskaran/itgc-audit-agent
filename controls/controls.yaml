@@ -1,0 +1,130 @@
+# ITGC Control Library
+
+audit:
+  name: FY2026 IT General Controls Review
+  period_start: 2025-10-01
+  period_end: 2026-09-30
+  in_scope_systems:
+    - Active Directory
+    - SAP ERP
+    - Salesforce
+    - AWS Console
+
+controls:
+
+  - id: AC-01
+    name: Timely removal of terminated user access
+    domain: Access to Programs and Data
+    objective: >
+      Access for terminated employees is removed promptly so former
+      employees cannot use company systems.
+    control_description: >
+      When HR records a termination, all of the employee's system accounts
+      are disabled within 1 business day.
+    test_procedure: >
+      Compare the HR roster to the user access listing. Identify any
+      terminated employee with an active account. For each exception,
+      check whether the account was used after the termination date.
+    evidence:
+      - hr_roster.csv
+      - user_access.csv
+    frameworks:
+      sox_itgc: Access to Programs and Data - User Deprovisioning
+      cobit_2019: DSS05.04 Manage identity and logical access
+      nist_csf_2: PR.AA-01 Identities and credentials are managed
+    control_type: Preventive
+    frequency: Event-driven
+    risk_rating: High
+    escalation_rule: >
+      Rate as Critical if the account was used after the termination date.
+    recommendation_guidance: >
+      Disable the account immediately, review post-termination activity,
+      and automate deprovisioning from HR termination events.
+
+  - id: AC-02
+    name: Multi-factor authentication enforced
+    domain: Access to Programs and Data
+    objective: >
+      All active accounts require multi-factor authentication to reduce
+      the risk of compromised passwords.
+    control_description: >
+      MFA is enforced for every active account on in-scope systems through
+      the identity provider's conditional access policy.
+    test_procedure: >
+      Review the user access listing and identify any active account
+      where MFA is not enabled.
+    evidence:
+      - user_access.csv
+    frameworks:
+      sox_itgc: Access to Programs and Data - Authentication
+      cobit_2019: DSS05.04 Manage identity and logical access
+      nist_csf_2: PR.AA-03 Users, services, and hardware are authenticated
+    control_type: Preventive
+    frequency: Continuous
+    risk_rating: Medium
+    escalation_rule: >
+      Rate as High if the account has the Admin role.
+    recommendation_guidance: >
+      Enable MFA on the affected accounts and enforce MFA through a
+      system-wide policy so it cannot be turned off per user.
+
+  - id: CM-01
+    name: Production changes are authorized
+    domain: Program Changes
+    objective: >
+      Only approved changes are deployed to production systems.
+    control_description: >
+      Every production deployment references an approved change ticket
+      in the change management system.
+    test_procedure: >
+      Review the deployment log and identify any deployment without a
+      linked change ticket. Trace each remaining deployment to an
+      existing approved ticket.
+    evidence:
+      - deployments.csv
+      - change_tickets.csv
+    frameworks:
+      sox_itgc: Program Changes - Change Authorization
+      cobit_2019: BAI06.01 Evaluate, prioritize and authorize change requests
+      nist_csf_2: PR.PS-01 Configuration management practices are applied
+    control_type: Preventive
+    frequency: Event-driven
+    risk_rating: High
+    escalation_rule: >
+      Rate as Critical if the deployment affected SAP ERP, the financial
+      reporting system.
+    recommendation_guidance: >
+      Investigate each unticketed deployment, obtain retrospective
+      approval, and block deployments that lack a valid ticket reference.
+
+  - id: CM-02
+    name: Segregation of duties in change approval
+    domain: Program Changes
+    objective: >
+      No individual can both request and approve the same change.
+    control_description: >
+      The change management system requires the approver to be a
+      different person from the requester.
+    test_procedure: >
+      Review all change tickets and identify any where the requester and
+      the approver are the same person.
+    evidence:
+      - change_tickets.csv
+    frameworks:
+      sox_itgc: Program Changes - Segregation of Duties
+      cobit_2019: BAI06.01 Evaluate, prioritize and authorize change requests
+      nist_csf_2: PR.AA-05 Access permissions incorporate separation of duties
+    control_type: Preventive
+    frequency: Event-driven
+    risk_rating: High
+    escalation_rule: >
+      Rate as Critical if the self-approved change affected SAP ERP.
+    recommendation_guidance: >
+      Configure the change system to block self-approval and have an
+      independent reviewer assess the self-approved changes.
+
+risk_ratings:
+  Critical: Control failure was exploited or directly affects financial reporting. Report to management immediately.
+  High: Significant control gap that could lead to unauthorized access or change. Remediate within 30 days.
+  Medium: Control weakness with compensating factors or limited exposure. Remediate within 90 days.
+  Low: Minor process improvement. Remediate at management's discretion.
