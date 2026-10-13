@@ -1,0 +1,79 @@
+# FY2026 IT General Controls Review: Final Report
+
+**Audit period:** 2025-10-01 to 2026-09-30  
+**Systems in scope:** Active Directory, SAP ERP, Salesforce, AWS Console  
+**Issued:** 2026-10-12 23:29  
+**Signed off by:** Rohith  
+**Source run:** RUN-20261012-232632
+
+## Summary of Findings
+
+| Finding | Title | Rating | Exceptions | Review |
+|---|---|---|---|---|
+| F-AC-01 | Terminated user accounts not disabled timely; 5 used after termination | Critical | 15 | Approved by Rohith |
+| F-AC-02 | MFA not enforced on 20 active accounts, including two Admin accounts | High | 20 | Approved by Rohith |
+| F-CM-01 | Production deployments made without approved change tickets, including SAP ERP | Critical | 10 | Approved by Rohith |
+| F-CM-02 | Self-approved changes bypassed segregation of duties on SAP ERP and other systems | Critical | 5 | Approved by Rohith |
+
+## F-AC-01: Terminated user accounts not disabled timely; 5 used after termination
+
+**Risk rating:** Critical  
+**Frameworks:** SOX ITGC: Access to Programs and Data - User Deprovisioning; COBIT 2019: DSS05.04 Manage identity and logical access; NIST CSF 2.0: PR.AA-01 Identities and credentials are managed
+
+| | |
+|---|---|
+| **Condition** | Testing of control AC-01 identified 15 exceptions in which an employee's account remained active after the HR termination date. By system: Salesforce (6), AWS Console (6), SAP ERP (2) and Active Directory (1). In 5 of the 15 cases, the account was used after the termination date, so these were escalated to Critical: ACC00111 (E0058, Salesforce, used 331 days after termination on 2026-09-06), ACC00270 (E0137, AWS Console, used 232 days after on 2026-06-10), ACC00616 (E0316, AWS Console, used 29 days after on 2026-04-05), ACC00749 (E0381, Salesforce, used 17 days after on 2026-09-28) and ACC00459 (E0231, SAP ERP, used 12 days after on 2026-07-16). The other 10 exceptions (ACC00209, ACC00241, ACC00436, ACC00462, ACC00652, ACC00682, ACC00834, ACC00940, ACC00964 and ACC01000) show accounts still active after termination, with no post-termination use identified in the data provided. Of these, ACC00834 is the Active Directory account for E0422, terminated 2026-05-01. |
+| **Criteria** | Control AC-01 requires that when HR records a termination, all of the employee's system accounts are disabled within 1 business day. This is consistent with the following references: SOX ITGC, Access to Programs and Data - User Deprovisioning; COBIT 2019 DSS05.04 Manage identity and logical access; and NIST CSF 2.0 PR.AA-01 Identities and credentials are managed. |
+| **Cause** | Possible causes, to be confirmed with management: deprovisioning may rely on manual steps or tickets rather than being triggered automatically by HR termination events; HR termination records may not be reliably communicated to the owners of individual systems (AWS Console, Salesforce, SAP ERP, Active Directory); and there may be no periodic reconciliation of active accounts against the HR terminations list to detect missed removals. |
+| **Effect** | Accounts left active after termination, and in 5 cases actually used, expose the organization to unauthorized access to systems and data, including AWS Console, Active Directory, SAP ERP and Salesforce. Post-termination use shows the access was both available and exercised, which increases the risk of data exposure, unauthorized or fraudulent transactions, and changes to systems. It also weakens the reliability of access controls relied on for SOX ITGC and could result in regulatory or compliance consequences. |
+| **Recommendation** | 1) Disable immediately all 15 accounts identified, starting with the 5 Critical exceptions. 2) Review and investigate the activity on the 5 accounts used after termination (ACC00111, ACC00270, ACC00459, ACC00616, ACC00749), determine whether any data or transactions were accessed or altered, and escalate to security incident response as appropriate. 3) Confirm that no post-termination activity occurred on the other 10 accounts. 4) Automate deprovisioning of all system accounts from HR termination events, with identity-provider integration where feasible. 5) Implement a periodic reconciliation of active accounts to HR terminations across all in-scope systems, with documented review and follow-up of exceptions. 6) Determine the root cause with management and report on remediation progress. |
+
+*Drafted by AI agents; approved by Rohith on 2026-10-13.*
+
+## F-AC-02: MFA not enforced on 20 active accounts, including two Admin accounts
+
+**Risk rating:** High  
+**Frameworks:** SOX ITGC: Access to Programs and Data - Authentication; COBIT 2019: DSS05.04 Manage identity and logical access; NIST CSF 2.0: PR.AA-03 Users, services, and hardware are authenticated
+
+| | |
+|---|---|
+| **Condition** | Testing of control AC-02 identified 20 active accounts across four in-scope systems without MFA enabled. By system: SAP ERP 8, Salesforce 5, Active Directory 4, AWS Console 3. By role: 2 Admin, 4 Power User, 14 Standard User. The two Admin exceptions are ACC00819 (employee E0415, AWS Console) and ACC00245 (employee E0126, Salesforce). The four Power User exceptions are ACC00028 (SAP ERP) and ACC00823, ACC00706 and ACC00546 (Active Directory). The 14 Standard User exceptions are on SAP ERP, Salesforce, Active Directory and AWS Console. Two employees have exceptions on more than one system: E0275 (Active Directory and Salesforce) and E0109 (Salesforce and SAP ERP). |
+| **Criteria** | Control AC-02 requires MFA to be enforced for every active account on in-scope systems through the identity provider's conditional access policy. This aligns with SOX ITGC Access to Programs and Data - Authentication, COBIT 2019 DSS05.04 Manage identity and logical access, and NIST CSF 2.0 PR.AA-03 Users, services, and hardware are authenticated. |
+| **Cause** | Possible causes, to be confirmed with management: the conditional access policy may not cover all accounts or systems, MFA may be configured or disabled per user rather than enforced system-wide, or accounts may have been excluded from the policy or not enrolled. Management should also confirm whether any approved exceptions exist. |
+| **Effect** | Accounts without MFA depend on a single credential, which increases the risk of unauthorized access through credential theft, phishing or password guessing. The risk is highest for the two Admin accounts (AWS Console and Salesforce), where one compromised credential could give an attacker privileged access. The remaining 18 exceptions (Power User and Standard User) also weaken authentication across AWS Console, Active Directory, SAP ERP and Salesforce, and could affect the confidentiality and integrity of data and transactions on those systems. The overall rating is High because two exceptions meet the Admin escalation criterion; the other 18 are rated Medium. |
+| **Recommendation** | 1. Enable MFA immediately on the two Admin accounts (ACC00819 and ACC00245), then on the 18 remaining accounts listed. 2. Enforce MFA through a system-wide conditional access policy covering all active accounts on in-scope systems, so it cannot be turned off per user. 3. Determine why these accounts were not covered, and document and approve any intended exclusions. 4. Review the Admin accounts' activity since MFA was absent for signs of unauthorized use. 5. Add a periodic review of MFA coverage across all in-scope systems so that gaps are detected and corrected promptly. |
+
+*Drafted by AI agents; approved by Rohith on 2026-10-13.*
+
+## F-CM-01: Production deployments made without approved change tickets, including SAP ERP
+
+**Risk rating:** Critical  
+**Frameworks:** SOX ITGC: Program Changes - Change Authorization; COBIT 2019: BAI06.01 Evaluate, prioritize and authorize change requests; NIST CSF 2.0: PR.PS-01 Configuration management practices are applied
+
+| | |
+|---|---|
+| **Condition** | Testing of control CM-01 identified 10 production deployments with no change ticket reference in the change management system. One deployment (DEP-0100, SAP ERP, 2026-03-23, employee E0178) was rated Critical. The other 9 were rated High. By system: Active Directory, 3 (DEP-0033 on 2025-12-09 by E0353; DEP-0047 on 2025-12-29 by E0419; DEP-0154 on 2026-06-24 by E0419). Salesforce, 3 (DEP-0116 on 2026-04-30 by E0245; DEP-0165 on 2026-07-02 by E0280; DEP-0200 on 2026-09-13 by E0295). AWS Console, 3 (DEP-0138 on 2026-05-31 by E0462; DEP-0163 on 2026-07-02 by E0453; DEP-0186 on 2026-08-18 by E0079). SAP ERP, 1 (DEP-0100). Employee E0419 was associated with two of the exceptions. The exceptions span December 2025 to September 2026, so the issue is not confined to a single period. The population size and total number of deployments tested were not provided, so the exception rate cannot be stated. |
+| **Criteria** | Control CM-01 requires that every production deployment reference an approved change ticket in the change management system. This aligns with the SOX ITGC Program Changes - Change Authorization requirement, COBIT 2019 BAI06.01 (Evaluate, prioritize and authorize change requests), and NIST CSF 2.0 PR.PS-01 (Configuration management practices are applied). |
+| **Cause** | Possible causes, to be confirmed with management: deployment tooling or pipelines may not enforce a mandatory change ticket reference before release; individuals may have bypassed or been unaware of the change process; emergency or urgent changes may have been deployed without subsequent ticketing; or deployment access may not be restricted to authorized change workflows. |
+| **Effect** | Deployments without documented authorization increase the risk of unapproved, untested, or erroneous changes reaching production, which could affect system integrity, availability, and security. The SAP ERP exception is of greatest concern because that system supports financial reporting, and an unauthorized change could affect the integrity of financial data and the reliability of related ITGCs relied on for SOX purposes. Changes to Active Directory could also affect access and security configuration. The recurrence across four systems and multiple months suggests the control is not operating consistently. |
+| **Recommendation** | Management should: (1) investigate each of the 10 unticketed deployments to determine what was changed, why, and by whom, starting with DEP-0100 (SAP ERP), and assess whether any impact on financial reporting data or processing occurred; (2) obtain and document retrospective approval for each deployment, or reverse changes that cannot be justified; (3) implement a preventive technical control that blocks deployments lacking a valid, approved change ticket reference; (4) follow up with the individuals involved, including E0419 who appears in two exceptions, and reinforce change management requirements; (5) define and monitor an emergency change procedure that requires after-the-fact ticketing; and (6) perform periodic reconciliation of deployments to approved tickets. Note for reviewer: the facts indicate that DEP-0100 is the SAP ERP exception that drove the Critical rating, which is consistent with the escalation rule. |
+
+*Drafted by AI agents; approved by Rohith on 2026-10-13.*
+
+## F-CM-02: Self-approved changes bypassed segregation of duties on SAP ERP and other systems
+
+**Risk rating:** Critical  
+**Frameworks:** SOX ITGC: Program Changes - Segregation of Duties; COBIT 2019: BAI06.01 Evaluate, prioritize and authorize change requests; NIST CSF 2.0: PR.AA-05 Access permissions incorporate separation of duties
+
+| | |
+|---|---|
+| **Condition** | Testing of control CM-02 identified 5 change records where the requester and approver were the same person, despite the control requiring a different approver. Three of the five exceptions affected SAP ERP and were escalated to Critical: CHG-0167 (Change firewall rule, employee E0156), CHG-0183 (Update user role permissions, employee E0280) and CHG-0188 (Modify database configuration, employee E0337). The remaining two exceptions were rated High: CHG-0042 (Upgrade application version on AWS Console, employee E0190) and CHG-0184 (Deploy new reporting feature on Active Directory, employee E0421). The exceptions across three systems indicate the weakness is not isolated to a single platform. |
+| **Criteria** | The change management system is expected to require that the approver of a change is a different person from the requester (control CM-02). This aligns with SOX ITGC Program Changes - Segregation of Duties, COBIT 2019 BAI06.01 (Evaluate, prioritize and authorize change requests), and NIST CSF 2.0 PR.AA-05 (Access permissions incorporate separation of duties). |
+| **Cause** | The possible cause is that the change management system does not technically enforce a block on self-approval, or that approver permissions are configured in a way that allows requesters to approve their own changes. Other possible causes include emergency or override pathways, or overly broad approver rights. These should be confirmed with management. |
+| **Effect** | Self-approved changes remove independent review and increase the risk that erroneous, unauthorized or inappropriate changes reach production undetected. The risk is heightened on SAP ERP, a core system, where the self-approved changes involved a firewall rule, user role permissions and database configuration. These could affect security, access control and data integrity. The same weakness on AWS Console and Active Directory extends the exposure to other critical infrastructure and may undermine reliance on the change management control for financial reporting purposes. |
+| **Recommendation** | 1) Configure the change management system to technically block self-approval so the approver cannot be the requester. 2) Have an independent reviewer assess all five self-approved changes (CHG-0167, CHG-0183, CHG-0188, CHG-0042, CHG-0184), prioritizing the three SAP ERP changes, to confirm they were appropriate and did not introduce unauthorized access or configuration issues, and reverse or remediate where necessary. 3) Review approver permissions and any override or emergency pathways to determine how self-approval occurred. 4) Implement periodic monitoring for requester/approver matches across all in-scope systems. 5) Document the root cause and management's corrective action plan with target completion dates. |
+
+*Drafted by AI agents; approved by Rohith on 2026-10-13.*
+
+---
+*Every AI-drafted finding in this report was reviewed and approved by a human auditor. The full decision history is recorded in logs/audit_trail.jsonl.*
